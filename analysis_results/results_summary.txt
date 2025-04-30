@@ -1,0 +1,19 @@
+# Quadratic Voting Analysis Results
+
+## Voting Results Summary
+- Chiba Youth Center PRISM: 477 votes (average: 4.08)
+- Awaji Island Quest College: 430 votes (average: 3.74)
+- Bio Rice Field Project: 415 votes (average: 3.64)
+- Para Travel Support Team: 373 votes (average: 3.27)
+- Inatori Art Center Plan: 337 votes (average: 3.12)
+- JINEN TRAVEL: 330 votes (average: 3.17)
+- #vote_for Project: 327 votes (average: 2.95)
+
+## Budget Allocation Results (250,000 JPY)
+- Chiba Youth Center PRISM: 44347 JPY (17.7%)
+- Awaji Island Quest College: 39978 JPY (16.0%)
+- Bio Rice Field Project: 38583 JPY (15.4%)
+- Para Travel Support Team: 34678 JPY (13.9%)
+- Inatori Art Center Plan: 31331 JPY (12.5%)
+- JINEN TRAVEL: 30681 JPY (12.3%)
+- #vote_for Project: 30402 JPY (12.2%)
