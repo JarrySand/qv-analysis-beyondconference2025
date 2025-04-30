@@ -40,6 +40,7 @@
 - 予算配分の計算（二次投票方式）
 - 統計レポート生成（CSV、テキスト、HTML形式）
 - データ可視化（棒グラフ、円グラフ）
+- 投票方式の比較シミュレーション（QV vs 一人一票方式）
 
 ## ファイル構成
 
@@ -48,6 +49,8 @@
 - `generate_statistics.py` - 詳細な統計レポート生成
 - `check_duplicate_votes.py` - 重複投票分析ツール
 - `count_voters.py` - 投票者数の分析ツール
+- `comparison_simulation/` - 投票方式比較シミュレーション関連ファイル
+  - `compare_voting_methods.py` - QVと一人一票方式の比較分析
 
 ## 利用方法
 
@@ -59,6 +62,14 @@
    python generate_statistics.py
    ```
 3. `analysis_results/` ディレクトリに分析結果が生成されます
+
+### 投票方式比較シミュレーション
+
+QV方式と一人一票方式の比較シミュレーションを実行するには:
+```
+python compare_voting_methods.py
+```
+比較結果は `comparison_simulation/` ディレクトリに保存されます。このシミュレーションでは、実際の投票データをもとに、各投票者が最も高い点数を入れたプロジェクトに一票を投じたと仮定した場合の投票結果をシミュレートします。これにより、QV方式と従来の一人一票方式の違いを可視化できます。
 
 ## 依存ライブラリ
 
