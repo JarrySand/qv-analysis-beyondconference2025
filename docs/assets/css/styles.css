@@ -110,6 +110,31 @@ ul, ol {
     border-radius: 4px;
 }
 
+.comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.comparison-table th,
+.comparison-table td {
+    padding: 0.8rem;
+    text-align: left;
+    border: 1px solid var(--border-color);
+}
+
+.comparison-table th {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.comparison-table tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
 footer {
     text-align: center;
     padding: 2rem;
