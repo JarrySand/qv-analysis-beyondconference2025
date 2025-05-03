@@ -42,6 +42,10 @@
 - データ可視化（棒グラフ、円グラフ）
 - 投票方式の比較シミュレーション（QV vs 一人一票方式）
 
+## 分析結果の公開サイト
+
+QV投票方式と一人一票方式の比較分析結果を[インタラクティブなウェブサイト](https://tkgshn.github.io/qv-analysis-beyondconference2025/)で公開しています。このサイトでは、各種グラフをインタラクティブに操作しながら、両投票方式の違いを詳細に確認できます。
+
 ## ファイル構成
 
 - `convert_to_csv.py` - JSONデータをCSVに変換
@@ -85,4 +89,4 @@ pip install pandas numpy scipy matplotlib
 
 ## ライセンス
 
-MIT 
+MIT  
