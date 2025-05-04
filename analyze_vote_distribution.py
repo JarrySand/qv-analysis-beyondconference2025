@@ -6,7 +6,6 @@
 """
 
 import os
-import json
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -15,40 +14,28 @@ from scipy import stats
 import matplotlib.ticker as mtick
 
 # ディレクトリ設定
-ELECTION_FILE = '../election.json'  
+VOTES_FILE = '../votes.csv'  
+CANDIDATES_FILE = '../candidates.csv'
 OUTPUT_DIR = './analysis_output'
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-def load_election_data(file_path):
-    """選挙データをJSONから読み込む"""
-    with open(file_path, 'r', encoding='utf-8') as f:
-        data = json.load(f)
-    return data
-
-def convert_to_dataframe(election_data):
-    """JSON選挙データをDataFrameに変換"""
-    # 候補者（プロジェクト）情報
-    candidates = []
-    for idx, candidate in enumerate(election_data['candidates']):
-        candidates.append({
-            'id': idx,
-            'name': candidate['name'],
-            'description': candidate.get('description', '')
-        })
+def load_csv_data():
+    """CSVからデータを読み込む"""
+    votes_df = pd.read_csv(VOTES_FILE)
+    candidates_df = pd.read_csv(CANDIDATES_FILE)
     
-    # 投票データ
-    votes = []
-    for voter in election_data['voters']:
-        voter_id = voter['id']
-        for vote in voter['votes']:
-            votes.append({
-                'voter_id': voter_id,
-                'candidate_id': vote['candidate'],
-                'vote_value': vote['vote']
-            })
+    # 投票データのカラム名を確認し、必要に応じて変更
+    votes_df = votes_df.rename(columns={
+        'voter': 'voter_id',
+        'candidate': 'candidate_id', 
+        'vote': 'vote_value'
+    })
     
-    candidates_df = pd.DataFrame(candidates)
-    votes_df = pd.DataFrame(votes)
+    # 候補者データのカラム名を確認し、必要に応じて変更
+    candidates_df = candidates_df.rename(columns={
+        'id': 'id',
+        'name': 'name'
+    })
     
     return candidates_df, votes_df
 
@@ -109,16 +96,24 @@ def detect_neutral_bias(votes_df, vote_stats):
     vote_dist = votes_df['vote_value'].value_counts().sort_index()
     vote_dist_pct = vote_dist / vote_dist.sum() * 100
     
-    # カイ二乗検定（均等分布との比較）
     # 均等分布を仮定した場合の期待値
-    expected_dist = np.ones(9) * len(votes_df) / 9
-    observed_dist = [vote_dist.get(i, 0) for i in range(1, 10)]
+    total_votes = len(votes_df) 
+    expected_per_vote = total_votes / 9  # 均等分布なら各票数(1-9)は同じ頻度
     
-    chi2, p_value = stats.chisquare(observed_dist, expected_dist)
+    # 分布の不均等性を計算
+    observed_counts = np.array([vote_dist.get(i, 0) for i in range(1, 10)])
+    expected_counts = np.ones(9) * expected_per_vote
+    
+    # カイ二乗統計量を手動で計算
+    chi2_stat = np.sum(((observed_counts - expected_counts) ** 2) / expected_counts)
+    
+    # 自由度 = 9-1 = 8のカイ二乗分布のp値を計算
+    # SciPy の stats.chi2.sf関数を使用 (生のカイ二乗検定ではなく)
+    p_value = stats.chi2.sf(chi2_stat, 8)  # 8 degrees of freedom (9 categories - 1)
     
     # 1票過剰使用の検出
-    one_vote_excess = vote_dist.get(1, 0) - expected_dist[0]
-    one_vote_excess_pct = (one_vote_excess / expected_dist[0]) * 100
+    one_vote_excess = vote_dist.get(1, 0) - expected_per_vote
+    one_vote_excess_pct = (one_vote_excess / expected_per_vote) * 100 if expected_per_vote > 0 else 0
     
     # プロジェクトごとの1票比率の不均等性
     one_vote_percentages = vote_stats['one_vote_percentage']
@@ -128,7 +123,7 @@ def detect_neutral_bias(votes_df, vote_stats):
     return {
         'vote_distribution': vote_dist,
         'vote_distribution_percentage': vote_dist_pct,
-        'chi2_statistic': chi2,
+        'chi2_statistic': chi2_stat,
         'p_value': p_value,
         'one_vote_excess': one_vote_excess,
         'one_vote_excess_percentage': one_vote_excess_pct,
@@ -303,8 +298,7 @@ def generate_report(vote_stats, voter_stats, bias_results, output_file):
 
 def main():
     # データ読み込み
-    election_data = load_election_data(ELECTION_FILE)
-    candidates_df, votes_df = convert_to_dataframe(election_data)
+    candidates_df, votes_df = load_csv_data()
     
     # 分析実行
     vote_stats = analyze_vote_distribution(votes_df, candidates_df)

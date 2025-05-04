@@ -1,0 +1,25 @@
+# Credit Usage Analysis Report
+
+## Basic Statistical Information
+
+- Total Number of Voters: 124
+- Average Credit Usage Rate: 93.51%
+- Average Remaining Credits: 6.43
+- Voters Who Used More Than 90% of Credits: 107 (86.29%)
+- Voters With 10 or Fewer Remaining Credits: 108 (87.10%)
+
+## Additional Voting Possibility Analysis
+
+- Voters Who Could Have Cast Additional Votes: 0 (0.00%)
+## Correlation Analysis
+
+- Correlation Coefficient Between Credit Usage Rate and Number of Voted Projects: nan
+
+## Considerations on the Neutral Bias Hypothesis
+
+Credit usage analysis results **support the neutral bias hypothesis**:
+- The majority of voters used almost all their credits
+- Users with few remaining credits make up the majority
+- Few cases where voters could have cast additional votes but did not
+
+These suggest the existence of credit maximization behavior, consistent with the neutral bias hypothesis.

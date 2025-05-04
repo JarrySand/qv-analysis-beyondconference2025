@@ -17,3 +17,15 @@
 - Inatori Art Center Plan: 31331 JPY (12.5%)
 - JINEN TRAVEL: 30681 JPY (12.3%)
 - #vote_for Project: 30402 JPY (12.2%)
+
+## Voter Participation Statistics
+### Number of Candidates Voted Per Voter
+- 1 candidates: 3 voters
+- 2 candidates: 4 voters
+- 3 candidates: 7 voters
+- 4 candidates: 12 voters
+- 5 candidates: 14 voters
+- 6 candidates: 5 voters
+- 7 candidates: 79 voters
+
+Average candidates voted per voter: 5.91

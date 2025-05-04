@@ -81,6 +81,47 @@ try:
 except Exception as e:
     print(f"予算配分グラフの生成中にエラーが発生しました: {e}")
 
+try:
+    # 3. 投票者が投票した候補数の分布グラフ
+    # 各投票者が何人の候補に投票したかカウント
+    candidates_voted_counts = []
+    
+    # 投票者IDごとにユニークな行を取得
+    for voter_id in votes['voter_id'].unique():
+        # この投票者の行を取得
+        voter_row = votes[votes['voter_id'] == voter_id].iloc[0]
+        
+        # 投票した候補数をカウント
+        vote_count = 0
+        for i in range(len(candidates)):
+            col_name = f'candidate_{i}'
+            if col_name in voter_row and not pd.isna(voter_row[col_name]) and voter_row[col_name] > 0:
+                vote_count += 1
+        
+        candidates_voted_counts.append(vote_count)
+    
+    # 分布カウント
+    vote_count_distribution = pd.Series(candidates_voted_counts).value_counts().sort_index()
+    
+    # グラフ作成
+    plt.figure(figsize=(12, 8))
+    ax = sns.barplot(x=vote_count_distribution.index, y=vote_count_distribution.values)
+    
+    # 各棒の上に値を表示
+    for i, v in enumerate(vote_count_distribution.values):
+        ax.text(i, v + 0.5, str(v), ha='center')
+    
+    plt.title('Distribution of Number of Candidates Voted by Voters')
+    plt.xlabel('Number of Candidates Voted')
+    plt.ylabel('Number of Voters')
+    plt.grid(axis='y', linestyle='--', alpha=0.7)
+    plt.tight_layout()
+    plt.savefig('analysis_results/voters_voting_pattern.png', dpi=300)
+    plt.close()
+    print("投票した候補数分布グラフを生成しました")
+except Exception as e:
+    print(f"投票した候補数分布グラフの生成中にエラーが発生しました: {e}")
+
 # テキスト形式でも結果を出力（英語で）
 with open('analysis_results/results_summary.txt', 'w', encoding='utf-8') as f:
     f.write("# Quadratic Voting Analysis Results\n\n")
@@ -94,6 +135,13 @@ with open('analysis_results/results_summary.txt', 'w', encoding='utf-8') as f:
     sorted_budget = vote_summary.sort_values(by='budget_allocation', ascending=False)
     for _, row in sorted_budget.iterrows():
         f.write(f"- {row['title']}: {row['budget_allocation']} JPY ({row['budget_allocation']/total_budget*100:.1f}%)\n")
+    
+    f.write("\n## Voter Participation Statistics\n")
+    if 'vote_count_distribution' in locals():
+        f.write("### Number of Candidates Voted Per Voter\n")
+        for count, num_voters in vote_count_distribution.items():
+            f.write(f"- {count} candidates: {num_voters} voters\n")
+        f.write(f"\nAverage candidates voted per voter: {np.mean(candidates_voted_counts):.2f}\n")
 
 # 予算配分テーブル
 with open('analysis_results/budget_allocation_table.txt', 'w', encoding='utf-8-sig') as f:
