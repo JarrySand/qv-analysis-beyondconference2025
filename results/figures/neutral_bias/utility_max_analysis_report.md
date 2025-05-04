@@ -11,15 +11,15 @@
 
 | Metric | Theoretical Value | Actual Value | Difference |
 |---|---|---|---|
-| 1-Vote Percentage | 11.36% | 14.87% | 3.51% |
-| 2-Vote Percentage | 40.31% | 16.92% | -23.40% |
-| 3-5 Vote Percentage | 33.39% | 39.76% | 6.38% |
+| 1-Vote Percentage | 10.36% | 14.87% | 4.51% |
+| 2-Vote Percentage | 40.11% | 16.92% | -23.20% |
+| 3-5 Vote Percentage | 34.20% | 39.76% | 5.56% |
 | 6-9 Vote Percentage | 0.00% | 12.82% | 12.82% |
-| Entropy | 1.2636 | 2.0898 | 0.8261 |
+| Entropy | 1.2557 | 2.0898 | 0.8341 |
 
 ## Statistical Test Results
 
-- Chi-Square Value: 146.3175
+- Chi-Square Value: 165.1411
 - Degrees of Freedom: 3
 - p-Value: 0.00000000
 
@@ -27,9 +27,9 @@ Conclusion: 実際の投票分布は効用最大化モデルの理論分布と�
 
 ## Summary and Interpretation
 
-- 実際の投票では、理論モデルが予測するよりも**1票の使用が3.51%多い**です。
+- 実際の投票では、理論モデルが予測するよりも**1票の使用が4.51%多い**です。
   - これは「関心の低いプロジェクトにも形式的に投票する」という中立バイアス仮説を支持する可能性があります。
-- 中間票（3-5票）の使用が理論値より6.38%多く、投票者は選好の差別化を重視している可能性があります。
+- 中間票（3-5票）の使用が理論値より5.56%多く、投票者は選好の差別化を重視している可能性があります。
 
 ### Utility Maximization Hypothesis Verification Results
 
