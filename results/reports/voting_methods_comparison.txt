@@ -1,0 +1,25 @@
+# Voting Methods Comparison: QV vs One-Person-One-Vote
+
+## Budget Allocation Comparison
+
+| Project | QV Votes | OPOV Votes | QV Budget | OPOV Budget | QV % | OPOV % | Difference |
+|---------|----------|------------|-----------|-------------|------|-------|------------|
+| Chiba Youth Center PRISM | 477.0 | 31.0 | 44,347 | 62,418 | 17.7% | 25.0% | -18,071 |
+| Awaji Island Quest College | 430.0 | 20.7 | 39,978 | 41,652 | 16.0% | 16.7% | -1,675 |
+| Bio Rice Field Project | 415.0 | 20.7 | 38,583 | 41,652 | 15.4% | 16.7% | -3,069 |
+| Para Travel Support Team | 373.0 | 12.5 | 34,678 | 25,288 | 13.9% | 10.1% | +9,390 |
+| Inatori Art Center Plan | 337.0 | 14.0 | 31,331 | 28,245 | 12.5% | 11.3% | +3,086 |
+| JINEN TRAVEL | 330.0 | 15.7 | 30,681 | 31,672 | 12.3% | 12.7% | -992 |
+| #vote_for Project | 327.0 | 9.5 | 30,402 | 19,072 | 12.2% | 7.6% | +11,330 |
+
+## Inequality Measures
+
+- Quadratic Voting Gini Coefficient: 0.077
+- One-Person-One-Vote Gini Coefficient: 0.201
+- Quadratic Voting results in a more equal budget distribution (lower Gini coefficient).
+
+## Interpretation
+
+Quadratic Voting allows voters to express the intensity of their preferences, which can result in a different budget allocation compared to traditional One-Person-One-Vote systems. The Gini coefficient measures the inequality of the distribution, with 0 being perfect equality and 1 being maximum inequality.
+
+The differences observed in the allocation highlight how QV captures preference intensity, potentially leading to a more nuanced representation of collective preferences.

@@ -1,0 +1,7 @@
+# Vote Value Distribution Analysis Report
+
+## Overall Statistical Information
+
+- total votes: 931
+- Median: 3.0
+- Mean: 2.88

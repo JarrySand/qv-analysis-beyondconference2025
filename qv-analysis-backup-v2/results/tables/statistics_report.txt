@@ -1,0 +1,96 @@
+# Quadratic Voting Statistical Report
+
+## Basic Statistics by Project
+
+### Chiba Youth Center PRISM
+- Total Votes: 477
+- Number of Voters: 117
+- Mean Vote Value: 4.08
+- Median Vote Value: 4.0
+- Most Common Vote (Mode): 3
+- Standard Deviation: 2.13
+- Min Vote: 1
+- Max Vote: 9
+- Number of Zero Votes: 16
+- Budget Allocation: 44,413 JPY (17.8%)
+
+### Awaji Island Quest College
+- Total Votes: 430
+- Number of Voters: 115
+- Mean Vote Value: 3.74
+- Median Vote Value: 4.0
+- Most Common Vote (Mode): 4
+- Standard Deviation: 1.94
+- Min Vote: 1
+- Max Vote: 9
+- Number of Zero Votes: 18
+- Budget Allocation: 40,037 JPY (16.0%)
+
+### Bio Rice Field Project
+- Total Votes: 413
+- Number of Voters: 114
+- Mean Vote Value: 3.64
+- Median Vote Value: 3.0
+- Most Common Vote (Mode): 2
+- Standard Deviation: 1.95
+- Min Vote: 1
+- Max Vote: 9
+- Number of Zero Votes: 17
+- Budget Allocation: 38,454 JPY (15.4%)
+
+### Para Travel Support Team
+- Total Votes: 373
+- Number of Voters: 114
+- Mean Vote Value: 3.27
+- Median Vote Value: 3.0
+- Most Common Vote (Mode): 3
+- Standard Deviation: 1.90
+- Min Vote: 1
+- Max Vote: 9
+- Number of Zero Votes: 19
+- Budget Allocation: 34,730 JPY (13.9%)
+
+### Inatori Art Center Plan
+- Total Votes: 337
+- Number of Voters: 108
+- Mean Vote Value: 3.12
+- Median Vote Value: 3.0
+- Most Common Vote (Mode): 2
+- Standard Deviation: 1.87
+- Min Vote: 1
+- Max Vote: 9
+- Number of Zero Votes: 25
+- Budget Allocation: 31,378 JPY (12.6%)
+
+### JINEN TRAVEL
+- Total Votes: 328
+- Number of Voters: 104
+- Mean Vote Value: 3.17
+- Median Vote Value: 3.0
+- Most Common Vote (Mode): 2
+- Standard Deviation: 2.09
+- Min Vote: 1
+- Max Vote: 9
+- Number of Zero Votes: 28
+- Budget Allocation: 30,540 JPY (12.2%)
+
+### #vote_for Project
+- Total Votes: 327
+- Number of Voters: 111
+- Mean Vote Value: 2.95
+- Median Vote Value: 3.0
+- Most Common Vote (Mode): 2
+- Standard Deviation: 1.60
+- Min Vote: 1
+- Max Vote: 9
+- Number of Zero Votes: 22
+- Budget Allocation: 30,447 JPY (12.2%)
+
+## Overall Voting Statistics
+
+- Total Number of Voters: 124
+- Total Number of Votes Cast: 783
+- Average Number of Projects Voted Per Person: 6.31
+- Average Points Used Per Voter: 21.65
+- Project with Most Points: Chiba Youth Center PRISM (477 points)
+- Project with Most Voters: Chiba Youth Center PRISM (117 voters)
