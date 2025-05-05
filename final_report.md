@@ -225,7 +225,7 @@ QV方式による予算配分の特徴として、以下の点が観察されま
 
 この予算配分パターンは、QV方式の「選好強度を反映しつつも極端な集中を避ける」という特徴を示しています。投票者がクレジット制約のもとで複数のプロジェクトに分散投票する傾向があるため、結果的に全てのプロジェクトが一定以上の支援を受けられる配分となっています。
 
-> 詳細データと分析手法については [analysis_results/ANALYSIS.md](/reports_analysis/ANALYSIS_basic.md) の「投票データの基本分析」セクションを参照してください。
+> 詳細データと分析手法については [reports_analysis/ANALYSIS_basic.md](/reports_analysis/ANALYSIS_basic.md) の「投票データの基本分析」セクションを参照してください。
 
 ## 5. QV方式の特徴と効果の検証
 
@@ -300,7 +300,7 @@ QV方式の最大の特徴は、投票者が自身の選好強度を表現でき
 
 QV方式の基本的な特徴と投票パターンが明らかになりましたが、これらがどのように従来の投票方式と異なる結果をもたらすのでしょうか。次節では、同じデータに基づいて「もし一人一票方式だったら」という比較分析を行い、QV方式の本質的な意義を検証します。
 
-> 詳細データと分析手法については [analysis_results/ANALYSIS.md](/reports_analysis/ANALYSIS_basic.md) の「投票データの基本分析」セクションを参照してください。
+> 詳細データと分析手法については [reports_analysis/ANALYSIS_basic.md](/reports_analysis/ANALYSIS_basic.md) の「投票データの基本分析」セクションを参照してください。
 
 ## 6. QV方式と一人一票方式の比較
 
@@ -423,7 +423,7 @@ QV方式と一人一票方式の比較から、以下の重要な結論が導か
 
 これらの結果は、QV方式が理論的優位性を持つだけでなく、実践的な集合的意思決定において具体的な改善をもたらす可能性を示しています。特に「選好強度の反映」と「公平な資源配分」という観点から、QV方式は従来の一人一票方式を補完・拡張する有望なメカニズムであると言えます。
 
-> 詳細データと分析手法については [comparison_simulation/ANALYSIS.md](/reports_analysis/ANALYSIS_comparison.md) の「QV方式と一人一票方式の比較分析」セクションを参照してください。
+> 詳細データと分析手法については [reports_analysis/ANALYSIS_comparison.md](/reports_analysis/ANALYSIS_comparison.md) の「QV方式と一人一票方式の比較分析」セクションを参照してください。
 
 ## 7. 「中立バイアス」仮説の検証
 
@@ -513,7 +513,7 @@ QV方式と一人一票方式の比較から、以下の重要な結論が導か
 
 以上の分析から、中立バイアス仮説は部分的に支持され、投票者の行動には中立バイアス的な要素と真の選好に基づく要素が混在していると考えられます。特に1票の使用頻度が理論値と一致する点は中立バイアスの可能性を示唆していますが、クレジットを使い切らずに投票を終了する行動は中立バイアス仮説と矛盾します。
 
-> 詳細データと分析手法については [ANALYSIS.md](/reports_analysis/ANALYSIS_neutral.md) の「中立バイアス分析」および「投票値の分布分析」セクションを参照してください。
+> 詳細データと分析手法については [reports_analysis/ANALYSIS_neutral.md](/reports_analysis/ANALYSIS_neutral.md) の「中立バイアス分析」および「投票値の分布分析」セクションを参照してください。
 
 ## 8. 結論と意義
 
@@ -591,7 +591,7 @@ QV方式の集合的意思決定メカニズムとしての評価は以下の通
    - デジタルツールの普及により、複雑な計算を伴うQV方式の実装が容易になっている
    - 今回の実験でも124名の参加者が短時間で効果的に利用できることが示された
 
-> 詳細データと分析手法については [ANALYSIS.md](/reports_analysis/ANALYSIS_neutral.md) の「結論と検証結果」セクションと [comparison_simulation/ANALYSIS.md](/reports_analysis/ANALYSIS_comparison.md) の「総合評価」セクションを参照してください。
+> 詳細データと分析手法については [reports_analysis/ANALYSIS_neutral.md](/reports_analysis/ANALYSIS_neutral.md) の「結論と検証結果」セクションと [reports_analysis/ANALYSIS_comparison.md](/reports_analysis/ANALYSIS_comparison.md) の「総合評価」セクションを参照してください。
 
 ## 9. 実践的提案
 
@@ -658,7 +658,7 @@ QV方式の集合的意思決定メカニズムとしての評価は以下の通
    - 配分計算プロセスの詳細な説明
    - シミュレーションツールの提供（「もし投票が変わったら配分はどう変わるか」）
 
-> 詳細データと分析手法については [ANALYSIS.md](/reports_analysis/ANALYSIS_neutral.md) の「実践的含意と提案」セクションを参照してください。
+> 詳細データと分析手法については [reports_analysis/ANALYSIS_neutral.md](/reports_analysis/ANALYSIS_neutral.md) の「実践的含意と提案」セクションを参照してください。
 
 ## 10. 研究の限界と今後の課題
 
@@ -726,7 +726,7 @@ QV方式の集合的意思決定メカニズムとしての評価は以下の通
    - QVと他の意思決定メカニズムを組み合わせた最適手法の探索
    - 特定の文脈に応じたカスタマイズ方式の開発
 
-> 詳細データと分析手法については [ANALYSIS.md](/reports_analysis/ANALYSIS_neutral.md) の「限界と今後の研究」セクションを参照してください。
+> 詳細データと分析手法については [reports_analysis/ANALYSIS_neutral.md](/reports_analysis/ANALYSIS_neutral.md) の「限界と今後の研究」セクションを参照してください。
 
 ## 付録
 
