@@ -118,7 +118,7 @@ QV方式では、得票数に応じて予算が配分されますが、線形で
 ### 2. 投票パターン分析
 
 ![Voters Voting Pattern](../results/figures/basic_analysis/voters_voting_pattern.png)
-![Candidate Correlation](../results/figures/basic_analysis/candidate_correlation.png)
+![Candidate Correlation](/docs/assets/images/candidate_correlation.png)
 
 投票パターンの分析からは、以下の点が明らかになりました：
 
@@ -130,9 +130,9 @@ QV方式では、得票数に応じて予算が配分されますが、線形で
 
 各プロジェクトの投票パターン分析から、投票者がどのように「投票強度」を表現しているかが見えてきます：
 
-![Vote Pattern Candidate 0](../results/figures/basic_analysis/vote_pattern_candidate_0.png)
-![Vote Pattern Candidate 1](../results/figures/basic_analysis/vote_pattern_candidate_1.png)
-![Vote Pattern Candidate 2](../results/figures/basic_analysis/vote_pattern_candidate_2.png)
+![Vote Pattern Candidate 0](/docs/assets/images/vote_pattern_candidate_0.png)
+![Vote Pattern Candidate 1](/docs/assets/images/vote_pattern_candidate_1.png)
+![Vote Pattern Candidate 2](/docs/assets/images/vote_pattern_candidate_2.png)
 
 投票強度の分布は、プロジェクトによって異なるパターンを示しています：
 
