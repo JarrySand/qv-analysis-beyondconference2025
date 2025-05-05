@@ -1,9 +1,0 @@
-pandas==1.5.3
-numpy==1.24.3
-scipy==1.10.1
-matplotlib==3.7.1
-seaborn==0.12.2
-scikit-learn==1.2.2
-plotly==5.14.1
-kaleido==0.2.1
-statsmodels==0.14.0 
