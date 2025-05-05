@@ -90,4 +90,13 @@ venv.bak/
 
 # Secret files
 .env
-.secrets 
+.secrets
+
+# Local backup directories
+qv-analysis-backup/
+qv-analysis-backup-v2/
+*-backup/
+*-backup-*/
+
+# Development notes
+dev_notes/ 

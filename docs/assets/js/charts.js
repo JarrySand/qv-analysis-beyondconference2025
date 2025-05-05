@@ -13,16 +13,16 @@ function createBuriedVoicesChart() {
     const chartContainer = document.getElementById('buried-voices-chart');
     
     const projects = [
-        'Chiba Youth Center PRISM',
         'Bio Rice Field Project',
-        'Para Travel Support Team',
+        'Chiba Youth Center PRISM',
         'Awaji Island Quest College',
         'Inatori Art Center Plan',
-        'JINEN TRAVEL',
-        '#vote_for Project'
+        'Para Travel Support Team',
+        '#vote_for Project',
+        'JINEN TRAVEL'
     ];
     
-    const buriedVotes = [21, 15, 14, 10, 9, 8, 7];
+    const buriedVotes = [37, 35, 33, 29, 26, 22, 20];
     
     const data = [{
         x: projects,

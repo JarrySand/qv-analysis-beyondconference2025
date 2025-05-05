@@ -1,0 +1,10 @@
+﻿# プロジェクト名対応表 / Project Name Mapping
+
+| Original Japanese Name | English Name |
+|------------------------|-------------|
+| 政を祭に変える #vote_forプロジェクト | #vote_for Project |
+| 淡路島クエストカレッジ | Awaji Island Quest College |
+| イナトリアートセンター計画 | Inatori Art Center Plan |
+| ビオ田んぼプロジェクト | Bio Rice Field Project |
+| パラ旅応援団 | Para Travel Support Team |
+| 10代・20代の「いま、やりたい」を後押しする拠点　ちばユースセンターPRISM | Chiba Youth Center PRISM |

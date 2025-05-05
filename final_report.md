@@ -24,9 +24,10 @@
 - **投票プラットフォーム**: qv.geek.sg
 - **投票者**: 124名（他のソーシャルセクター起業家、自治体職員、企業CSR担当者など）
 - **投票フロー**:
-  1. 各プロジェクトのピッチプレゼン（5分間）
-  2. オーディエンスによるリアルタイム投票（10分間）
-  3. 集計結果の発表と資金配分の決定
+  1. 全体説明（10分）
+  2. 各プロジェクトのピッチプレゼン（3分間×7プロジェクト）
+  3. オーディエンスによるリアルタイム投票（10分間）
+  4. 集計結果の発表と資金配分の決定
 
 ### 資金配分メカニズム
 - 各投票者には99ポイントの投票クレジットが付与
@@ -70,8 +71,8 @@ QV方式は、投票者が自身の選好強度を表現できる革新的な投
 - 投票者は小票よりも中〜大票（3-9票）を優先的に使用し、プロジェクト間で明確な選好の差別化を行っている
 - 各クラスターの投票パターンは、単なる形式的投票ではなく、真の選好に基づいた意図的な選択を示唆
 
-#### 3. 中立バイアス仮説は支持されず
-- 投票値の分布分析から、1票の使用頻度は理論的予測（約65%）より大幅に低い14.82%に留まる
+#### 3. 中立バイアス仮説の決定的な証拠はない
+- 投票値の分布分析から、1票の使用頻度は理論的予測（約15.04%）とほぼ一致する14.82%となっている。これは投票者が効用最大化理論に沿った合理的な投票行動をとっている可能性を示唆している
 - 投票者の58.06%はクレジットを使い切らず投票を終了、特に25.0%は追加で2票以上投じる余地があるにもかかわらず投票を終了
 - これらは「残りクレジットを使い切るために形式的に小票を投じる」という中立バイアス仮説と矛盾
 
@@ -224,7 +225,7 @@ QV方式による予算配分の特徴として、以下の点が観察されま
 
 この予算配分パターンは、QV方式の「選好強度を反映しつつも極端な集中を避ける」という特徴を示しています。投票者がクレジット制約のもとで複数のプロジェクトに分散投票する傾向があるため、結果的に全てのプロジェクトが一定以上の支援を受けられる配分となっています。
 
-> 詳細データと分析手法については [analysis_results/ANALYSIS.md](/analysis_results/ANALYSIS.md) の「投票データの基本分析」セクションを参照してください。
+> 詳細データと分析手法については [reports_analysis/ANALYSIS_basic.md](/reports_analysis/ANALYSIS_basic.md) の「投票データの基本分析」セクションを参照してください。
 
 ## 5. QV方式の特徴と効果の検証
 
@@ -250,21 +251,21 @@ QV方式の最大の特徴は、投票者が自身の選好強度を表現でき
 投票者の行動パターンに関する詳細な分析を行いました。
 
 **投票者の投票パターン分布**:
-![Voters Voting Pattern](/analysis_results/voters_voting_pattern.png)
+![Voters Voting Pattern](results/figures/basic_analysis/voters_voting_pattern.png)
 
 - 約65%（79名）の投票者が全7プロジェクトに投票（「オールインタイプ」）
 - 残り35%は1-6のプロジェクトを選択的に支持（「選択型」）
 - 平均支持プロジェクト数は6.31と高く、投票者は複数プロジェクトへの分散投票傾向
 
 **プロジェクト間の相関関係**:
-![Project Correlation Matrix](/neutral_bias_simulation/output/project_correlation_matrix.png)
+![Project Correlation Matrix](results/figures/neutral_bias/project_correlation_matrix.png)
 
 - JINEN TRAVELとChiba Youth Center PRISM間の負の相関（-0.33）
 - Bio Rice Field ProjectとAwaji Island Quest College間の弱い正の相関（0.17）
 - これらの相関パターンは、投票者の選好における類似性や競合関係を反映
 
 **クレジット使用率**:
-![Credit Usage Rate Distribution](/neutral_bias_simulation/output/credit_usage_rate_distribution.png)
+![Credit Usage Rate Distribution](results/figures/neutral_bias/credit_usage_rate_distribution.png)
 
 - 86.29%の投票者が総クレジットの90%以上を使用
 - 平均クレジット使用率は93.51%と非常に高く、投票者はクレジットを効率的に活用
@@ -274,7 +275,7 @@ QV方式の最大の特徴は、投票者が自身の選好強度を表現でき
 
 投票パターンに基づく投票者のクラスタリング分析を実施し、7つの特徴的な投票者グループを識別しました。
 
-![Voting Pattern Clusters](/neutral_bias_simulation/output/voting_pattern_clusters.png)
+![Voting Pattern Clusters](results/figures/neutral_bias/voting_pattern_clusters.png)
 
 **クラスターA（バランス型投票者グループ）**:
 - 規模：40名（32.3%）と最大のグループ
@@ -299,7 +300,7 @@ QV方式の最大の特徴は、投票者が自身の選好強度を表現でき
 
 QV方式の基本的な特徴と投票パターンが明らかになりましたが、これらがどのように従来の投票方式と異なる結果をもたらすのでしょうか。次節では、同じデータに基づいて「もし一人一票方式だったら」という比較分析を行い、QV方式の本質的な意義を検証します。
 
-> 詳細データと分析手法については [analysis_results/ANALYSIS.md](/analysis_results/ANALYSIS.md) の「投票データの基本分析」セクションを参照してください。
+> 詳細データと分析手法については [reports_analysis/ANALYSIS_basic.md](/reports_analysis/ANALYSIS_basic.md) の「投票データの基本分析」セクションを参照してください。
 
 ## 6. QV方式と一人一票方式の比較
 
@@ -329,7 +330,7 @@ QV方式の本質的な効果を理解するために、最も重要な分析と
 ### 予算配分の公平性比較
 
 **ジニ係数による不平等度比較**:
-![Gini Coefficient Comparison](/comparison_simulation/voting_methods_gini_comparison.png)
+![Gini Coefficient Comparison](results/figures/comparison/voting_methods_gini_comparison.png)
 
 - QV方式のジニ係数: 0.0774
 - 一人一票方式のジニ係数: 0.2013
@@ -338,14 +339,14 @@ QV方式の本質的な効果を理解するために、最も重要な分析と
 ジニ係数は0（完全平等）〜1（完全不平等）の値を取り、値が低いほど平等な配分を意味します。QV方式のジニ係数が大幅に低いことは、より平等な予算配分を実現していることの客観的証拠です。
 
 **ローレンツ曲線**:
-![Lorenz Curve](/comparison_simulation/voting_methods_lorenz_curve.png)
+![Lorenz Curve](results/figures/comparison/lorenz_curves.png)
 
 - QV方式のローレンツ曲線は45度線（完全平等線）に近い
 - 一人一票方式のローレンツ曲線は明確に45度線から乖離
 - 曲線間の面積の差は、QV方式がより平等な配分を実現していることを視覚的に示している
 
 **予算配分額の比較**:
-![Budget Allocation Comparison](/comparison_simulation/voting_methods_budget_comparison.png)
+![Budget Allocation Comparison](results/figures/comparison/voting_methods_budget_comparison.png)
 
 - 一人一票方式では、Chiba Youth Center PRISMが62,500円（25%）を獲得
 - QV方式では最大でも44,347円（17.7%）に抑えられる
@@ -356,20 +357,42 @@ QV方式の本質的な効果を理解するために、最も重要な分析と
 ### 「埋もれた声」の可視化
 
 **埋もれた声の定義と分析**:
-![Hidden Voices](/comparison_simulation/buried_voices.png)
 
-「埋もれた声」とは、一人一票方式では反映されない「強い選好」（4票以上）を指します。各投票者が最大投票のプロジェクトにのみ1票を投じる一人一票方式では、複数のプロジェクトに強い支持を持つ投票者の声が埋もれてしまいます。
+「埋もれた声」とは、一人一票方式では反映されない選好を指します。各投票者が最大投票のプロジェクトにのみ1票を投じる一人一票方式では、複数のプロジェクトに支持を持つ投票者の声が埋もれてしまいます。
 
-- Chiba Youth Center PRISMには21票もの「埋もれた声」が存在
-- Bio Rice Field ProjectとPara Travel Support Teamもそれぞれ15票、14票の埋もれた声
-- 全プロジェクトの埋もれた声の合計は75票で、全体の投票の約10%
+#### 強い選好の埋もれた声（閾値4以上）
+
+![Hidden Voices](results/figures/buried_voices/threshold_4/buried_voices.png)
+
+- Bio Rice Field Projectは37票の「強い埋もれた声」を持ち、最も多い
+- Chiba Youth Center PRISMは35票、Awaji Island Quest Collegeは33票の埋もれた声がある
+- Inatori Art Center Planは29票、Para Travel Support Teamは26票の埋もれた声がある
+- 全プロジェクトの埋もれた声の合計は202票で、全体の投票の約26%を占める
+
+#### すべての選好の埋もれた声（閾値1以上）
+
+![All Buried Voices](results/figures/buried_voices/threshold_1/buried_voices.png)
+
+- Para Travel Support Teamが101票と最も多くの埋もれた声を持つ
+- Bio Rice Field Projectは96票、#vote_for ProjectとInatori Art Center Planはそれぞれ95票の埋もれた声を持つ
+- JINEN TRAVELとChiba Youth Center PRISMはそれぞれ89票の埋もれた声を持つ
+- 最も少ないAwaji Island Quest Collegeでも85票の埋もれた声がある
+- 全プロジェクトのすべての埋もれた声の合計は650票で、全体の投票の約83%を占める
+
+#### 埋もれた声の比較分析
+
+![Buried Voices Comparison](results/figures/buried_voices/buried_voices_comparison.png)
+
+この比較から、投票者は多くの弱い選好（閾値1以上4未満の投票）を持っていることが明らかになりました。弱い選好の埋もれた声は全体の約57%（650票 - 202票 = 448票）を占めており、投票者の選好が単純な「賛成/反対」の二択ではなく、より豊かで複雑な構造を持っていることを示しています。
+
+**注記**: 埋もれた声の計算には「設定した閾値以上の票数でかつ最大投票の候補ではない場合」という基準を使用しています。この方法により、一人一票方式では反映されない選好をより正確に把握できます。
 
 この「埋もれた声」は、一人一票方式では完全に無視される貴重な社会的情報です。QV方式はこれらの声を適切に拾い上げ、より豊かな情報に基づいた集合的意思決定を可能にします。
 
 ### 選好強度の反映度合いの比較
 
 **選好強度の可視化**:
-![Preference Intensity Heatmap](/comparison_simulation/preference_intensity_heatmap.png)
+![Preference Intensity Heatmap](results/figures/comparison/preference_intensity_heatmap.png)
 
 投票強度のヒートマップは、各プロジェクトに対する投票者の選好強度の分布を視覚化しています：
 
@@ -378,7 +401,7 @@ QV方式の本質的な効果を理解するために、最も重要な分析と
 - 中程度の強度（4-6）の投票も多数存在するが、一人一票方式では考慮されない
 
 **選好強度の比較グラフ**:
-![Preference Intensity Comparison](/comparison_simulation/preference_intensity_comparison.png)
+![Preference Intensity Comparison](results/figures/comparison/preference_intensity_comparison.png)
 
 - QV方式は弱（1-3）、中（4-6）、強（7-9）の全ての選好強度を反映
 - 一人一票方式では第一選好のみが反映され、複雑な選好構造が失われる
@@ -392,15 +415,15 @@ QV方式と一人一票方式の比較から、以下の重要な結論が導か
 
 1. **資源配分の公平性**: QV方式は一人一票方式より約62%低いジニ係数を示し、より平等な予算配分を実現します。これは「強い選好」を適切に反映しつつも、特定のプロジェクトへの過度の集中を防ぐQVのメカニズムによるものです。
 
-2. **情報量の豊かさ**: QV方式は投票者の複雑な選好構造をより豊かに捉え、一人一票方式では失われる「埋もれた声」を意思決定に反映します。これにより、社会全体の選好がより正確に集約されます。
+2. **情報量の豊かさ**: QV方式は投票者の複雑な選好構造をより豊かに捉え、一人一票方式では失われる「埋もれた声」（強い選好で全体の26%、すべての選好で83%）を意思決定に反映します。これにより、社会全体の選好がより正確に集約されます。
 
-3. **少数派の保護**: QV方式は強い選好を持つ少数派の声も適切に反映するため、一人一票方式で起こりうる「多数の専制」を緩和します。これは民主的包摂性の観点から重要な特性です。
+3. **少数派の保護**: QV方式は強い選好（全体の26%）および弱い選好（全体の57%）を持つ少数派の声も適切に反映するため、一人一票方式で起こりうる「多数の専制」を緩和します。これは民主的包摂性の観点から重要な特性です。
 
 4. **実践的差異**: 予算配分の具体的な差異（最大25%から17.7%へ、最小8.6%から12.2%へ）は、実際のプロジェクト運営に大きな影響を与える可能性があります。特に、下位プロジェクトの存続可能性が高まる点は重要です。
 
 これらの結果は、QV方式が理論的優位性を持つだけでなく、実践的な集合的意思決定において具体的な改善をもたらす可能性を示しています。特に「選好強度の反映」と「公平な資源配分」という観点から、QV方式は従来の一人一票方式を補完・拡張する有望なメカニズムであると言えます。
 
-> 詳細データと分析手法については [comparison_simulation/ANALYSIS.md](/comparison_simulation/ANALYSIS.md) の「QV方式と一人一票方式の比較分析」セクションを参照してください。
+> 詳細データと分析手法については [reports_analysis/ANALYSIS_comparison.md](/reports_analysis/ANALYSIS_comparison.md) の「QV方式と一人一票方式の比較分析」セクションを参照してください。
 
 ## 7. 「中立バイアス」仮説の検証
 
@@ -423,19 +446,19 @@ QV方式と一人一票方式の比較から、以下の重要な結論が導か
 
 ### 投票値分布パターンの分析
 
-![Vote Distribution](/neutral_bias_simulation/output/vote_distribution.png)
+![Vote Distribution](results/figures/neutral_bias/vote_distribution.png)
 
 投票値の分布分析から、以下の重要な発見がありました：
 
-- **1票の使用率**: 全体の14.82%に留まり、理論的予測（約65%）よりはるかに低い
+- **1票の使用率**: 全体の14.82%となり、理論的予測（約15.04%）とほぼ一致している。これは投票者が効用最大化理論に沿った合理的な投票行動をとっている可能性を示唆している
 - **中票（3-5票）の優先**: 全体の39.63%を占め、もっとも頻繁に使用
 - **0票の存在**: 全体の15.89%を占め、投票者が「投票しない」選択をしている証拠
 
-この分布パターンは、中立バイアス仮説と矛盾します。もし中立バイアスが強く存在するなら、1票の使用頻度が理論値よりも高くなるはずですが、実際には大幅に低い結果となっています。
+この分布パターンは、中立バイアス仮説の検証において注目すべき結果です。1票の使用頻度は理論値とほぼ一致していますが、これは必ずしも中立バイアスの証拠ではなく、効用最大化理論に沿った合理的な投票行動の結果と解釈できます。中立バイアスとは「関心の低いプロジェクトに形式的に小票を投じる」という行動ですが、理論値と一致する小票の使用は、むしろ各プロジェクトへの真の選好強度を反映した結果かもしれません。また、多くの投票者がクレジットを使い切らず投票を終了している点は、「残りクレジットを使い切るために形式的に小票を投じる」という中立バイアス仮説と矛盾します。
 
 ### クレジット使用率と投票終了行動
 
-![Remaining Credits Distribution](/neutral_bias_simulation/output/remaining_credits_distribution.png)
+![Remaining Credits Distribution](results/figures/neutral_bias/remaining_credits_distribution.png)
 
 クレジット使用率の分析からは、以下の興味深い発見がありました：
 
@@ -447,7 +470,7 @@ QV方式と一人一票方式の比較から、以下の重要な結論が導か
 
 ### 効用最大化モデルとの比較
 
-![Utility Max Comparison](/neutral_bias_simulation/output/utility_max_comparison.png)
+![Utility Max Comparison](results/figures/neutral_bias/utility_max_comparison.png)
 
 効用最大化理論に基づく投票値分布のシミュレーションを実施し、実際の分布と比較しました：
 
@@ -477,7 +500,7 @@ QV方式と一人一票方式の比較から、以下の重要な結論が導か
 
 ### 感度分析結果
 
-![Sensitivity Analysis](/neutral_bias_simulation/output/sensitivity_analysis.png)
+![Sensitivity Analysis](results/figures/neutral_bias/sensitivity_analysis.png)
 
 中立バイアス仮説が部分的に正しいと仮定した場合の影響を評価するため、1-2票の一部がバイアスによるものとみなし、それを0票に変換するシミュレーションを実施しました：
 
@@ -488,9 +511,9 @@ QV方式と一人一票方式の比較から、以下の重要な結論が導か
 
 この感度分析から、中立バイアスが存在したとしても、その影響は予算配分に対して比較的限定的であることが明らかになりました。バイアス率50%という比較的高い想定でも、最大の予算変化率は約5%程度にとどまっています。
 
-以上の分析から、中立バイアス仮説は支持されず、投票者は概ね真の選好に基づいた投票行動をとっていると結論づけられます。
+以上の分析から、中立バイアス仮説は部分的に支持され、投票者の行動には中立バイアス的な要素と真の選好に基づく要素が混在していると考えられます。特に1票の使用頻度が理論値と一致する点は中立バイアスの可能性を示唆していますが、クレジットを使い切らずに投票を終了する行動は中立バイアス仮説と矛盾します。
 
-> 詳細データと分析手法については [ANALYSIS.md](/neutral_bias_simulation/ANALYSIS.md) の「中立バイアス分析」および「投票値の分布分析」セクションを参照してください。
+> 詳細データと分析手法については [reports_analysis/ANALYSIS_neutral.md](/reports_analysis/ANALYSIS_neutral.md) の「中立バイアス分析」および「投票値の分布分析」セクションを参照してください。
 
 ## 8. 結論と意義
 
@@ -523,7 +546,7 @@ QV方式と一人一票方式の比較から、以下の重要な結論が導か
    - これは集中型から分散型への移行を意味し、多様なステークホルダーの利害をより均衡させる
 
 3. **集合的知性の活用**:
-   - 「埋もれた声」の分析が示すように、QV方式は一人一票方式では捉えられない追加的な選好情報を収集・活用
+   - 「埋もれた声」の分析が示すように、QV方式は一人一票方式では捉えられない追加的な選好情報（全体の83%）を収集・活用
    - これにより、社会全体の選好をより正確に集約し、集合的知性をより効果的に活用
 
 4. **民主的包摂性の向上**:
@@ -534,19 +557,19 @@ QV方式と一人一票方式の比較から、以下の重要な結論が導か
 
 中立バイアス仮説（「投票者は関心の低いプロジェクトにも形式的に少数票を投じる」）の検証結果は以下の通りです：
 
-1. **仮説は支持されず**: 
-   - 1票の使用頻度は理論的予測より大幅に低く、中立バイアスの存在と矛盾
-   - 多くの投票者がクレジットを使い切らずに投票を終了し、形式的投票を避ける傾向
-   - 投票者クラスターは明確な選好の差別化を示し、形式的投票と矛盾
+1. **仮説を支持する決定的な証拠はない**: 
+   - 1票の使用頻度（14.82%）は理論的予測（15.04%）とほぼ一致していますが、これは効用最大化理論に沿った合理的な投票行動の結果と解釈できる
+   - 多くの投票者がクレジットを使い切らずに投票を終了しており、これは形式的投票を避ける傾向を示している
+   - 投票者クラスターは明確な選好の差別化を示しており、単なる形式的投票ではなく真の選好を反映した投票行動を示唆している
 
-2. **別の解釈**:
-   - 投票者は「単純な効用最大化」ではなく「選好の適切な表現」を重視
-   - 1-2票の使用は形式的ではなく、真の選好を反映している可能性が高い
+2. **複合的な解釈**:
+   - 投票者は「単純な効用最大化」と「選好の適切な表現」の両方を考慮している可能性
+   - 1-2票の使用は主に真の弱い選好を反映している可能性が高く、形式的投票とは考えにくい
    - 0票の使用は「投票しない」という積極的選択肢として機能
 
 3. **影響の程度**:
    - 仮に中立バイアスが存在しても、その影響は予算配分に対して限定的（最大約5%）
-   - 投票者クラスターの存在と投票パターンの一貫性から、真の選好が投票結果に強く反映されていると判断できる
+   - 投票者クラスターの存在と投票パターンの一貫性から、中立バイアスよりも真の選好が投票結果に強い影響を与えていると判断できる
 
 ### 集合的意思決定メカニズムとしての評価
 
@@ -568,7 +591,7 @@ QV方式の集合的意思決定メカニズムとしての評価は以下の通
    - デジタルツールの普及により、複雑な計算を伴うQV方式の実装が容易になっている
    - 今回の実験でも124名の参加者が短時間で効果的に利用できることが示された
 
-> 詳細データと分析手法については [ANALYSIS.md](/neutral_bias_simulation/ANALYSIS.md) の「結論と検証結果」セクションと [comparison_simulation/ANALYSIS.md](/comparison_simulation/ANALYSIS.md) の「総合評価」セクションを参照してください。
+> 詳細データと分析手法については [reports_analysis/ANALYSIS_neutral.md](/reports_analysis/ANALYSIS_neutral.md) の「結論と検証結果」セクションと [reports_analysis/ANALYSIS_comparison.md](/reports_analysis/ANALYSIS_comparison.md) の「総合評価」セクションを参照してください。
 
 ## 9. 実践的提案
 
@@ -635,7 +658,7 @@ QV方式の集合的意思決定メカニズムとしての評価は以下の通
    - 配分計算プロセスの詳細な説明
    - シミュレーションツールの提供（「もし投票が変わったら配分はどう変わるか」）
 
-> 詳細データと分析手法については [ANALYSIS.md](/neutral_bias_simulation/ANALYSIS.md) の「実践的含意と提案」セクションを参照してください。
+> 詳細データと分析手法については [reports_analysis/ANALYSIS_neutral.md](/reports_analysis/ANALYSIS_neutral.md) の「実践的含意と提案」セクションを参照してください。
 
 ## 10. 研究の限界と今後の課題
 
@@ -703,7 +726,7 @@ QV方式の集合的意思決定メカニズムとしての評価は以下の通
    - QVと他の意思決定メカニズムを組み合わせた最適手法の探索
    - 特定の文脈に応じたカスタマイズ方式の開発
 
-> 詳細データと分析手法については [ANALYSIS.md](/neutral_bias_simulation/ANALYSIS.md) の「限界と今後の研究」セクションを参照してください。
+> 詳細データと分析手法については [reports_analysis/ANALYSIS_neutral.md](/reports_analysis/ANALYSIS_neutral.md) の「限界と今後の研究」セクションを参照してください。
 
 ## 付録
 
@@ -742,48 +765,26 @@ QV方式の集合的意思決定メカニズムとしての評価は以下の通
 
 主要な図表について簡単な説明：
 
-1. **[Voters Voting Pattern](/analysis_results/voters_voting_pattern.png)**: 
+1. **[Voters Voting Pattern](results/figures/basic_analysis/voters_voting_pattern.png)**: 
    投票者が投票したプロジェクト数の分布を示す。約65%の投票者が全7プロジェクトに投票している。
 
-2. **[Vote Distribution](/neutral_bias_simulation/output/vote_distribution.png)**: 
+2. **[Vote Distribution](results/figures/neutral_bias/vote_distribution.png)**: 
    投票値（0-9）の分布を示す。3票が最も多く使われ（18.23%）、1票は予想より少ない（14.82%）。
 
-3. **[Project Correlation Matrix](/neutral_bias_simulation/output/project_correlation_matrix.png)**: 
+3. **[Project Correlation Matrix](results/figures/neutral_bias/project_correlation_matrix.png)**: 
    プロジェクト間の投票値相関を示す。一部のプロジェクト間に負の相関が見られる。
 
-4. **[Voting Pattern Clusters](/neutral_bias_simulation/output/voting_pattern_clusters.png)**: 
+4. **[Voting Pattern Clusters](results/figures/neutral_bias/voting_pattern_clusters.png)**: 
    7つの投票者クラスターの投票パターンを示す。クラスターAは均等投票型、他は特定プロジェクト支持型。
 
-5. **[Credit Usage Rate Distribution](/neutral_bias_simulation/output/credit_usage_rate_distribution.png)**: 
+5. **[Credit Usage Rate Distribution](results/figures/neutral_bias/credit_usage_rate_distribution.png)**: 
    投票者のクレジット使用率分布を示す。多くが90%以上のクレジットを使用している。
 
-6. **[Remaining Credits Distribution](/neutral_bias_simulation/output/remaining_credits_distribution.png)**: 
+6. **[Remaining Credits Distribution](results/figures/neutral_bias/remaining_credits_distribution.png)**: 
    残りクレジット量の分布を示す。58.06%の投票者がクレジットを使い切っていない。
 
-7. **[Utility Max Comparison](/neutral_bias_simulation/output/utility_max_comparison.png)**: 
+7. **[Utility Max Comparison](results/figures/neutral_bias/utility_max_comparison.png)**: 
    効用最大化モデルの予測値と実際の投票値分布の比較。
 
-8. **[Budget Allocation Comparison](/comparison_simulation/voting_methods_budget_comparison.png)**: 
+8. **[Budget Allocation Comparison](results/figures/comparison/voting_methods_budget_comparison.png)**: 
    QV方式と一人一票方式の予算配分比較。QV方式がより均等な配分を示している。
-
-### 参考文献
-
-1. Lalley, S. P., & Weyl, E. G. (2018). Quadratic voting: How mechanism design can radicalize democracy. *AEA Papers and Proceedings, 108*, 33-37.
-
-2. Posner, E. A., & Weyl, E. G. (2018). *Radical markets: Uprooting capitalism and democracy for a just society*. Princeton University Press.
-
-3. Quarfoot, D., von Kohorn, D., Slavin, K., Sutherland, R., Goldstein, D., & Konar, E. (2017). Quadratic voting in the wild: Real people, real votes. *Public Choice, 172*(1), 283-303.
-
-4. Eguia, J. X., Immorlica, N., Ligett, K., Weyl, G., & Xefteris, D. (2019). Quadratic voting with multiple alternatives. *Working Paper*.
-
-5. Buterin, V., Hitzig, Z., & Weyl, E. G. (2019). A flexible design for funding public goods. *Management Science, 65*(11), 5171-5187.
-
-6. Tideman, T. N., & Plassmann, F. (2017). Efficient collective decision-making, marginal cost pricing, and quadratic voting. *Public Choice, 170*(1), 45-73.
-
-7. Goeree, J. K., & Zhang, J. (2017). One man, one bid. *Games and Economic Behavior, 101*, 151-171.
-
-8. Weyl, E. G. (2017). The robustness of quadratic voting. *Public Choice, 172*(1), 75-107.
-
-9. Chen, Y., & Pennock, D. M. (2010). Designing markets for prediction. *AI Magazine, 31*(4), 42-52.
-
-10. Arrow, K. J. (1950). A difficulty in the concept of social welfare. *Journal of Political Economy, 58*(4), 328-346. 
