@@ -1,0 +1,676 @@
+{
+  "candidates": [
+    {
+      "title": "政を祭に変える #vote_for_プロジェクト",
+      "description": "政治の意思決定プロセスを「祭」のように楽しく開かれた場にする取り組み"
+    },
+    {
+      "title": "イナトリアートセンター計画",
+      "description": "廃校を活用したアートセンターの立ち上げ"
+    },
+    {
+      "title": "淡路島クエストカレッジ",
+      "description": "自然と共に学ぶ新しい学校作り"
+    },
+    {
+      "title": "ビオ田んぼプロジェクト",
+      "description": "環境に配慮した農業の取り組み"
+    },
+    {
+      "title": "パラ旅応援団",
+      "description": "障がい者の旅行をサポートするプロジェクト"
+    }
+  ],
+  "votes": [
+    {
+      "id": "996bed00-94c8-42ae-ac95-a4619fa205b5",
+      "voter": "9db6effa-4537-435e-bd41-45d26f3fb083",
+      "votes": [
+        {
+          "candidate": 0,
+          "vote": 5
+        },
+        {
+          "candidate": 1,
+          "vote": 0
+        },
+        {
+          "candidate": 2,
+          "vote": 0
+        },
+        {
+          "candidate": 3,
+          "vote": 8
+        },
+        {
+          "candidate": 4,
+          "vote": 0
+        }
+      ]
+    },
+    {
+      "id": "b61289d3-a49e-4fef-900f-955a0d736352",
+      "voter": "9470fced-ee03-4319-9742-83497f7ac169",
+      "votes": [
+        {
+          "candidate": 0,
+          "vote": 5
+        },
+        {
+          "candidate": 1,
+          "vote": 0
+        },
+        {
+          "candidate": 2,
+          "vote": 0
+        },
+        {
+          "candidate": 3,
+          "vote": 8
+        },
+        {
+          "candidate": 4,
+          "vote": 0
+        }
+      ]
+    },
+    {
+      "id": "65bb4129-382a-4c34-bb07-57f06aa0f838",
+      "voter": "f4f579a2-4f58-486c-95c0-9cfa53b764bd",
+      "votes": [
+        {
+          "candidate": 0,
+          "vote": 5
+        },
+        {
+          "candidate": 1,
+          "vote": 0
+        },
+        {
+          "candidate": 2,
+          "vote": 0
+        },
+        {
+          "candidate": 3,
+          "vote": 8
+        },
+        {
+          "candidate": 4,
+          "vote": 0
+        }
+      ]
+    },
+    {
+      "id": "f829c77e-4965-4707-981c-b25b89164f70",
+      "voter": "ddd634f8-ec6d-41bc-a737-e25e96a23505",
+      "votes": [
+        {
+          "candidate": 0,
+          "vote": 5
+        },
+        {
+          "candidate": 1,
+          "vote": 0
+        },
+        {
+          "candidate": 2,
+          "vote": 0
+        },
+        {
+          "candidate": 3,
+          "vote": 8
+        },
+        {
+          "candidate": 4,
+          "vote": 0
+        }
+      ]
+    },
+    {
+      "id": "49f40251-5292-419c-a46e-1b3c59a07dd2",
+      "voter": "95420ff6-1422-4209-8613-d2cd194f86d9",
+      "votes": [
+        {
+          "candidate": 0,
+          "vote": 5
+        },
+        {
+          "candidate": 1,
+          "vote": 0
+        },
+        {
+          "candidate": 2,
+          "vote": 0
+        },
+        {
+          "candidate": 3,
+          "vote": 8
+        },
+        {
+          "candidate": 4,
+          "vote": 0
+        }
+      ]
+    },
+    {
+      "id": "3cf563df-2d5b-4acf-9798-dc73e3eb7d0b",
+      "voter": "e46a5d1f-669a-4499-97dc-2d9e7be97cdf",
+      "votes": [
+        {
+          "candidate": 0,
+          "vote": 5
+        },
+        {
+          "candidate": 1,
+          "vote": 0
+        },
+        {
+          "candidate": 2,
+          "vote": 0
+        },
+        {
+          "candidate": 3,
+          "vote": 8
+        },
+        {
+          "candidate": 4,
+          "vote": 0
+        }
+      ]
+    },
+    {
+      "id": "b80e88d6-fa5a-4693-aa8e-8da773cba2a3",
+      "voter": "5c1e7b12-78a8-4610-936e-6b0991488816",
+      "votes": [
+        {
+          "candidate": 0,
+          "vote": 5
+        },
+        {
+          "candidate": 1,
+          "vote": 0
+        },
+        {
+          "candidate": 2,
+          "vote": 0
+        },
+        {
+          "candidate": 3,
+          "vote": 8
+        },
+        {
+          "candidate": 4,
+          "vote": 0
+        }
+      ]
+    },
+    {
+      "id": "a32ef785-190f-4dba-8790-b09594159826",
+      "voter": "393743d8-663f-415a-8265-cd1bdba1abae",
+      "votes": [
+        {
+          "candidate": 0,
+          "vote": 5
+        },
+        {
+          "candidate": 1,
+          "vote": 0
+        },
+        {
+          "candidate": 2,
+          "vote": 0
+        },
+        {
+          "candidate": 3,
+          "vote": 8
+        },
+        {
+          "candidate": 4,
+          "vote": 0
+        }
+      ]
+    },
+    {
+      "id": "3b097609-1b83-4618-9759-b697c2ab6b89",
+      "voter": "df0bc6cf-75a9-4a84-b720-28f358bfb7a7",
+      "votes": [
+        {
+          "candidate": 0,
+          "vote": 5
+        },
+        {
+          "candidate": 1,
+          "vote": 0
+        },
+        {
+          "candidate": 2,
+          "vote": 0
+        },
+        {
+          "candidate": 3,
+          "vote": 8
+        },
+        {
+          "candidate": 4,
+          "vote": 0
+        }
+      ]
+    },
+    {
+      "id": "10580c86-9439-4ddb-a4c7-40a940639773",
+      "voter": "0906ee04-61a6-4c8c-9742-88703181d9cb",
+      "votes": [
+        {
+          "candidate": 0,
+          "vote": 5
+        },
+        {
+          "candidate": 1,
+          "vote": 0
+        },
+        {
+          "candidate": 2,
+          "vote": 0
+        },
+        {
+          "candidate": 3,
+          "vote": 8
+        },
+        {
+          "candidate": 4,
+          "vote": 0
+        }
+      ]
+    },
+    {
+      "id": "43503801-8d94-4398-a6cc-cf98b2b62d5d",
+      "voter": "904186ff-56e9-42b3-8838-60279754c697",
+      "votes": [
+        {
+          "candidate": 0,
+          "vote": 5
+        },
+        {
+          "candidate": 1,
+          "vote": 0
+        },
+        {
+          "candidate": 2,
+          "vote": 0
+        },
+        {
+          "candidate": 3,
+          "vote": 8
+        },
+        {
+          "candidate": 4,
+          "vote": 0
+        }
+      ]
+    },
+    {
+      "id": "8a14800c-eef2-4abd-a195-d3ca8f255a7d",
+      "voter": "64c45a7e-18ee-44d2-a248-54e718717709",
+      "votes": [
+        {
+          "candidate": 0,
+          "vote": 5
+        },
+        {
+          "candidate": 1,
+          "vote": 0
+        },
+        {
+          "candidate": 2,
+          "vote": 0
+        },
+        {
+          "candidate": 3,
+          "vote": 8
+        },
+        {
+          "candidate": 4,
+          "vote": 0
+        }
+      ]
+    },
+    {
+      "id": "b3a478a8-0c8f-4928-a303-957db4b49d85",
+      "voter": "8d25c530-f659-48db-9783-af7d59f1c43a",
+      "votes": [
+        {
+          "candidate": 0,
+          "vote": 5
+        },
+        {
+          "candidate": 1,
+          "vote": 0
+        },
+        {
+          "candidate": 2,
+          "vote": 0
+        },
+        {
+          "candidate": 3,
+          "vote": 8
+        },
+        {
+          "candidate": 4,
+          "vote": 0
+        }
+      ]
+    },
+    {
+      "id": "ee32c541-6320-4b06-a44a-c52ad3c28ac4",
+      "voter": "56479024-06c8-4624-b886-d22ed0a0e7cb",
+      "votes": [
+        {
+          "candidate": 0,
+          "vote": 5
+        },
+        {
+          "candidate": 1,
+          "vote": 0
+        },
+        {
+          "candidate": 2,
+          "vote": 0
+        },
+        {
+          "candidate": 3,
+          "vote": 8
+        },
+        {
+          "candidate": 4,
+          "vote": 0
+        }
+      ]
+    },
+    {
+      "id": "6b621b85-9229-4a9e-9b95-7124b52ec66d",
+      "voter": "a11798ec-b2b7-4dc6-bd39-f1f8cea1e17f",
+      "votes": [
+        {
+          "candidate": 0,
+          "vote": 5
+        },
+        {
+          "candidate": 1,
+          "vote": 0
+        },
+        {
+          "candidate": 2,
+          "vote": 0
+        },
+        {
+          "candidate": 3,
+          "vote": 8
+        },
+        {
+          "candidate": 4,
+          "vote": 0
+        }
+      ]
+    },
+    {
+      "id": "84156a74-9e38-44d9-a57b-461234600fa3",
+      "voter": "8160e4f4-822d-4b40-8161-54c72d43d8db",
+      "votes": [
+        {
+          "candidate": 0,
+          "vote": 5
+        },
+        {
+          "candidate": 1,
+          "vote": 0
+        },
+        {
+          "candidate": 2,
+          "vote": 0
+        },
+        {
+          "candidate": 3,
+          "vote": 8
+        },
+        {
+          "candidate": 4,
+          "vote": 0
+        }
+      ]
+    },
+    {
+      "id": "152a3ece-5ee3-4448-9b59-33980fc91c4f",
+      "voter": "3d5b700b-cc69-4f23-ba1a-6a41a9249e15",
+      "votes": [
+        {
+          "candidate": 0,
+          "vote": 5
+        },
+        {
+          "candidate": 1,
+          "vote": 0
+        },
+        {
+          "candidate": 2,
+          "vote": 0
+        },
+        {
+          "candidate": 3,
+          "vote": 8
+        },
+        {
+          "candidate": 4,
+          "vote": 0
+        }
+      ]
+    },
+    {
+      "id": "bf8789d8-b75b-4562-8bc3-b12dd49416be",
+      "voter": "aaa4f387-e237-46df-af1e-e30e94804b17",
+      "votes": [
+        {
+          "candidate": 0,
+          "vote": 5
+        },
+        {
+          "candidate": 1,
+          "vote": 0
+        },
+        {
+          "candidate": 2,
+          "vote": 0
+        },
+        {
+          "candidate": 3,
+          "vote": 8
+        },
+        {
+          "candidate": 4,
+          "vote": 0
+        }
+      ]
+    },
+    {
+      "id": "93d17bda-0963-4fe4-8d55-522d5878ff54",
+      "voter": "fd39b34f-5fd2-44cb-9cd0-648b193cf740",
+      "votes": [
+        {
+          "candidate": 0,
+          "vote": 5
+        },
+        {
+          "candidate": 1,
+          "vote": 0
+        },
+        {
+          "candidate": 2,
+          "vote": 0
+        },
+        {
+          "candidate": 3,
+          "vote": 8
+        },
+        {
+          "candidate": 4,
+          "vote": 0
+        }
+      ]
+    },
+    {
+      "id": "ba916a0f-0841-4305-8dd0-2cb51a4e47f7",
+      "voter": "b2ae2d50-ba0d-44b9-8f49-25c6500797b9",
+      "votes": [
+        {
+          "candidate": 0,
+          "vote": 5
+        },
+        {
+          "candidate": 1,
+          "vote": 0
+        },
+        {
+          "candidate": 2,
+          "vote": 0
+        },
+        {
+          "candidate": 3,
+          "vote": 8
+        },
+        {
+          "candidate": 4,
+          "vote": 0
+        }
+      ]
+    },
+    {
+      "id": "af305cb6-4c65-4415-adeb-9448ac7906eb",
+      "voter": "02d3bb8d-6ca7-4b34-a69d-02e2e98b3943",
+      "votes": [
+        {
+          "candidate": 0,
+          "vote": 5
+        },
+        {
+          "candidate": 1,
+          "vote": 0
+        },
+        {
+          "candidate": 2,
+          "vote": 0
+        },
+        {
+          "candidate": 3,
+          "vote": 8
+        },
+        {
+          "candidate": 4,
+          "vote": 0
+        }
+      ]
+    },
+    {
+      "id": "6bf2c3cd-db17-4751-b946-99d60eeae10a",
+      "voter": "583364e1-bd6a-426d-bd18-eb3fb368d6d5",
+      "votes": [
+        {
+          "candidate": 0,
+          "vote": 5
+        },
+        {
+          "candidate": 1,
+          "vote": 0
+        },
+        {
+          "candidate": 2,
+          "vote": 0
+        },
+        {
+          "candidate": 3,
+          "vote": 8
+        },
+        {
+          "candidate": 4,
+          "vote": 0
+        }
+      ]
+    },
+    {
+      "id": "d7a1f971-02a3-46d7-baa7-248232b260c2",
+      "voter": "b5878e8c-fefa-453c-a1ce-eaa9437056f1",
+      "votes": [
+        {
+          "candidate": 0,
+          "vote": 5
+        },
+        {
+          "candidate": 1,
+          "vote": 0
+        },
+        {
+          "candidate": 2,
+          "vote": 0
+        },
+        {
+          "candidate": 3,
+          "vote": 8
+        },
+        {
+          "candidate": 4,
+          "vote": 0
+        }
+      ]
+    },
+    {
+      "id": "1dfe22aa-55cd-4858-bb8d-11c6a0154b70",
+      "voter": "0e55798c-f245-4d7c-8756-264e3d8fcc93",
+      "votes": [
+        {
+          "candidate": 0,
+          "vote": 5
+        },
+        {
+          "candidate": 1,
+          "vote": 0
+        },
+        {
+          "candidate": 2,
+          "vote": 0
+        },
+        {
+          "candidate": 3,
+          "vote": 8
+        },
+        {
+          "candidate": 4,
+          "vote": 0
+        }
+      ]
+    },
+    {
+      "id": "2a7a1466-b7ea-4d59-a0aa-f5e6710e0380",
+      "voter": "99515021-8a3f-4544-843f-f049d4f23558",
+      "votes": [
+        {
+          "candidate": 0,
+          "vote": 5
+        },
+        {
+          "candidate": 1,
+          "vote": 0
+        },
+        {
+          "candidate": 2,
+          "vote": 0
+        },
+        {
+          "candidate": 3,
+          "vote": 8
+        },
+        {
+          "candidate": 4,
+          "vote": 0
+        }
+      ]
+    }
+  ]
+}

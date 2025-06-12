@@ -4,18 +4,18 @@
 
 | Project | QV Votes | OPOV Votes | QV Budget | OPOV Budget | QV % | OPOV % | Difference |
 |---------|----------|------------|-----------|-------------|------|-------|------------|
-| Chiba Youth Center PRISM | 477.0 | 31.0 | 44,347 | 62,418 | 17.7% | 25.0% | -18,071 |
-| Awaji Island Quest College | 430.0 | 20.7 | 39,978 | 41,652 | 16.0% | 16.7% | -1,675 |
-| Bio Rice Field Project | 415.0 | 20.7 | 38,583 | 41,652 | 15.4% | 16.7% | -3,069 |
-| Para Travel Support Team | 373.0 | 12.5 | 34,678 | 25,288 | 13.9% | 10.1% | +9,390 |
-| Inatori Art Center Plan | 337.0 | 14.0 | 31,331 | 28,245 | 12.5% | 11.3% | +3,086 |
-| JINEN TRAVEL | 330.0 | 15.7 | 30,681 | 31,672 | 12.3% | 12.7% | -992 |
-| #vote_for Project | 327.0 | 9.5 | 30,402 | 19,072 | 12.2% | 7.6% | +11,330 |
+| Awaji Island Quest College | 608.0 | 38.5 | 44,470 | 54,063 | 17.8% | 21.6% | -9,593 |
+| Chiba Youth Center PRISM | 593.0 | 43.3 | 43,373 | 60,805 | 17.3% | 24.3% | -17,431 |
+| Bio Rice Field Project | 509.0 | 27.2 | 37,229 | 38,145 | 14.9% | 15.3% | -916 |
+| Para Travel Support Team | 471.0 | 17.9 | 34,450 | 25,107 | 13.8% | 10.0% | +9,343 |
+| #vote_for Project | 450.0 | 17.6 | 32,914 | 24,756 | 13.2% | 9.9% | +8,158 |
+| JINEN TRAVEL | 395.0 | 17.0 | 28,891 | 23,937 | 11.6% | 9.6% | +4,955 |
+| Inatori Art Center Plan | 392.0 | 16.5 | 28,672 | 23,188 | 11.5% | 9.3% | +5,484 |
 
 ## Inequality Measures
 
-- Quadratic Voting Gini Coefficient: 0.077
-- One-Person-One-Vote Gini Coefficient: 0.201
+- Quadratic Voting Gini Coefficient: 0.092
+- One-Person-One-Vote Gini Coefficient: 0.213
 - Quadratic Voting results in a more equal budget distribution (lower Gini coefficient).
 
 ## Interpretation

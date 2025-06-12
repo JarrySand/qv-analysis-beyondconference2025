@@ -2,10 +2,10 @@
 
 | Project Name | Votes | Budget (JPY) | Percentage |
 |-------------|-------|---------|------|
-| Chiba Youth Center PRISM | 477 | 44,347 | 17.7% |
-| Awaji Island Quest College | 430 | 39,978 | 16.0% |
-| Bio Rice Field Project | 415 | 38,583 | 15.4% |
-| Para Travel Support Team | 373 | 34,678 | 13.9% |
-| Inatori Art Center Plan | 337 | 31,331 | 12.5% |
-| JINEN TRAVEL | 330 | 30,681 | 12.3% |
-| #vote_for Project | 327 | 30,402 | 12.2% |
+| Awaji Island Quest College | 608 | 44,470 | 17.8% |
+| Chiba Youth Center PRISM | 593 | 43,373 | 17.3% |
+| Bio Rice Field Project | 509 | 37,229 | 14.9% |
+| Para Travel Support Team | 471 | 34,450 | 13.8% |
+| #vote_for Project | 450 | 32,914 | 13.2% |
+| JINEN TRAVEL | 395 | 28,891 | 11.6% |
+| Inatori Art Center Plan | 392 | 28,672 | 11.5% |

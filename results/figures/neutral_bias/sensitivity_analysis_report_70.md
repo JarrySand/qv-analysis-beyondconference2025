@@ -3,23 +3,23 @@
 ## Scenario Settings
 
 - Bias Ratio: 70%
-- Affected Votes: 206 / 295 (69.8%)
+- Affected Votes: 265 / 379 (69.9%)
 
 ## Impact by Project
 
 | Project | Original Vote Count | Adjusted Vote Count | Change Rate | Original Budget Allocation | Adjusted Budget Allocation | Change Rate |
 |------------|------------|------------|------------|------------|------------|------------|
-| Chiba Youth Center PRISM | 477 | 449 | -5.9% | 44281 | 47343 | 6.9% |
-| Politics to Festival Project | 327 | 269 | -17.7% | 30356 | 28364 | -6.6% |
-| JINEN TRAVEL | 328 | 272 | -17.1% | 30821 | 29102 | -5.6% |
-| Awaji Island Quest College | 430 | 392 | -8.8% | 39918 | 41333 | 3.5% |
-| Inatori Art Center Plan | 337 | 290 | -13.9% | 31285 | 30578 | -2.3% |
-| Para Travel Support Team | 373 | 322 | -13.7% | 34627 | 33952 | -1.9% |
-| Bio Rice Field Project | 413 | 369 | -10.7% | 38711 | 39329 | 1.6% |
+| JINEN TRAVEL | 395 | 319 | -19.2% | 29133 | 26792 | -8.0% |
+| Chiba Youth Center PRISM | 593 | 553 | -6.7% | 43297 | 45869 | 5.9% |
+| Inatori Art Center Plan | 392 | 328 | -16.3% | 28621 | 27206 | -4.9% |
+| Awaji Island Quest College | 608 | 560 | -7.9% | 44393 | 46450 | 4.6% |
+| Politics to Festival Project | 450 | 383 | -14.9% | 32856 | 31768 | -3.3% |
+| Para Travel Support Team | 471 | 419 | -11.0% | 34390 | 34754 | 1.1% |
+| Bio Rice Field Project | 509 | 446 | -12.4% | 37310 | 37160 | -0.4% |
 
 ## Summary
 
-- Most Affected Project: Chiba Youth Center PRISM (6.9%)
+- Most Affected Project: JINEN TRAVEL (-8.0%)
 - Number of Projects with Increased Budget: 3
 - Number of Projects with Decreased Budget: 4
-- Average Change Rate (Absolute Value): 4.1%
+- Average Change Rate (Absolute Value): 4.0%

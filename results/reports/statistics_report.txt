@@ -2,95 +2,95 @@
 
 ## Basic Statistics by Project
 
-### Chiba Youth Center PRISM
-- Total Votes: 477
-- Number of Voters: 117
+### Awaji Island Quest College
+- Total Votes: 608
+- Number of Voters: 149
 - Mean Vote Value: 4.08
 - Median Vote Value: 4.0
-- Most Common Vote (Mode): 3
-- Standard Deviation: 2.13
-- Min Vote: 1
-- Max Vote: 9
-- Number of Zero Votes: 16
-- Budget Allocation: 44,413 JPY (17.8%)
-
-### Awaji Island Quest College
-- Total Votes: 430
-- Number of Voters: 115
-- Mean Vote Value: 3.74
-- Median Vote Value: 4.0
 - Most Common Vote (Mode): 4
-- Standard Deviation: 1.94
+- Standard Deviation: 2.37
 - Min Vote: 1
 - Max Vote: 9
-- Number of Zero Votes: 18
-- Budget Allocation: 40,037 JPY (16.0%)
+- Number of Zero Votes: 32
+- Budget Allocation: 44,470 JPY (17.8%)
+
+### Chiba Youth Center PRISM
+- Total Votes: 593
+- Number of Voters: 146
+- Mean Vote Value: 4.06
+- Median Vote Value: 4.0
+- Most Common Vote (Mode): 3
+- Standard Deviation: 2.32
+- Min Vote: 1
+- Max Vote: 9
+- Number of Zero Votes: 35
+- Budget Allocation: 43,373 JPY (17.3%)
 
 ### Bio Rice Field Project
-- Total Votes: 413
-- Number of Voters: 114
-- Mean Vote Value: 3.64
+- Total Votes: 509
+- Number of Voters: 141
+- Mean Vote Value: 3.62
 - Median Vote Value: 3.0
 - Most Common Vote (Mode): 2
-- Standard Deviation: 1.95
+- Standard Deviation: 1.99
 - Min Vote: 1
 - Max Vote: 9
-- Number of Zero Votes: 17
-- Budget Allocation: 38,454 JPY (15.4%)
+- Number of Zero Votes: 39
+- Budget Allocation: 37,229 JPY (14.9%)
 
 ### Para Travel Support Team
-- Total Votes: 373
-- Number of Voters: 114
-- Mean Vote Value: 3.27
+- Total Votes: 471
+- Number of Voters: 140
+- Mean Vote Value: 3.36
 - Median Vote Value: 3.0
 - Most Common Vote (Mode): 3
-- Standard Deviation: 1.90
+- Standard Deviation: 1.91
 - Min Vote: 1
 - Max Vote: 9
-- Number of Zero Votes: 19
-- Budget Allocation: 34,730 JPY (13.9%)
-
-### Inatori Art Center Plan
-- Total Votes: 337
-- Number of Voters: 108
-- Mean Vote Value: 3.12
-- Median Vote Value: 3.0
-- Most Common Vote (Mode): 2
-- Standard Deviation: 1.87
-- Min Vote: 1
-- Max Vote: 9
-- Number of Zero Votes: 25
-- Budget Allocation: 31,378 JPY (12.6%)
-
-### JINEN TRAVEL
-- Total Votes: 328
-- Number of Voters: 104
-- Mean Vote Value: 3.17
-- Median Vote Value: 3.0
-- Most Common Vote (Mode): 2
-- Standard Deviation: 2.09
-- Min Vote: 1
-- Max Vote: 9
-- Number of Zero Votes: 28
-- Budget Allocation: 30,540 JPY (12.2%)
+- Number of Zero Votes: 41
+- Budget Allocation: 34,450 JPY (13.8%)
 
 ### #vote_for Project
-- Total Votes: 327
-- Number of Voters: 111
-- Mean Vote Value: 2.95
+- Total Votes: 450
+- Number of Voters: 139
+- Mean Vote Value: 3.24
 - Median Vote Value: 3.0
 - Most Common Vote (Mode): 2
-- Standard Deviation: 1.60
+- Standard Deviation: 1.88
 - Min Vote: 1
 - Max Vote: 9
-- Number of Zero Votes: 22
-- Budget Allocation: 30,447 JPY (12.2%)
+- Number of Zero Votes: 42
+- Budget Allocation: 32,914 JPY (13.2%)
+
+### JINEN TRAVEL
+- Total Votes: 395
+- Number of Voters: 130
+- Mean Vote Value: 3.05
+- Median Vote Value: 2.0
+- Most Common Vote (Mode): 1
+- Standard Deviation: 2.07
+- Min Vote: 1
+- Max Vote: 9
+- Number of Zero Votes: 50
+- Budget Allocation: 28,891 JPY (11.6%)
+
+### Inatori Art Center Plan
+- Total Votes: 392
+- Number of Voters: 131
+- Mean Vote Value: 2.99
+- Median Vote Value: 2.0
+- Most Common Vote (Mode): 2
+- Standard Deviation: 1.86
+- Min Vote: 1
+- Max Vote: 9
+- Number of Zero Votes: 50
+- Budget Allocation: 28,672 JPY (11.5%)
 
 ## Overall Voting Statistics
 
-- Total Number of Voters: 124
-- Total Number of Votes Cast: 783
-- Average Number of Projects Voted Per Person: 6.31
-- Average Points Used Per Voter: 21.65
-- Project with Most Points: Chiba Youth Center PRISM (477 points)
-- Project with Most Voters: Chiba Youth Center PRISM (117 voters)
+- Total Number of Voters: 179
+- Total Number of Votes Cast: 976
+- Average Number of Projects Voted Per Person: 5.45
+- Average Points Used Per Voter: 19.09
+- Project with Most Points: Awaji Island Quest College (608 points)
+- Project with Most Voters: Awaji Island Quest College (149 voters)

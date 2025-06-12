@@ -139,8 +139,10 @@ def main():
     # スクリプト実行順序と説明を定義
     # 依存関係を考慮して最適化した順序
     scripts = [
-        # 1. データ処理（最初に実行すべき）
-        ("src/utils/convert_to_csv.py", "データ変換 (JSONからCSV形式へ)"),
+        # 0. votes.csvからvote_summary.csvを更新（追加）
+        ("src/utils/update_vote_summary.py", "votes.csvからvote_summary.csvを更新"),
+        
+        # convert_to_csv.pyの実行は削除（手動でデータを用意する方式に変更）
         
         # 2. 基本分析（他の分析の前提となるもの）
         ("src/analysis/analyze_votes.py", "基本投票分析"),

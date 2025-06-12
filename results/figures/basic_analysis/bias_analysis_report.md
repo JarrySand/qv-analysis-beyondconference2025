@@ -2,16 +2,16 @@
 
 ## Basic Statistical Information
 
-- Total Votes: 931
-- Total Voters: 133
-- Total 1-Vote Count: 138 (14.82%)
+- Total Votes: 1267
+- Total Voters: 181
+- Total 1-Vote Count: 175 (13.81%)
 
 ## Chi-Square Test Results
 
-- Chi-Square Value: x^2=291.7487
+- Chi-Square Value: x^2=348.5296
 - p-Value: 0.00000000
-- 1-Vote Excess: 34.56
-- 1-Vote Excess Rate: 33.40%
+- 1-Vote Excess: 34.22
+- 1-Vote Excess Rate: 24.31%
 
 ### Result
 
@@ -21,26 +21,26 @@ Vote values differ significantly from equal distribution. This suggests the exis
 
 | Project | Total Votes | 1-Vote Count | 1-Vote Ratio | Expected 1-Votes | Excess (%) |
 |---------|------------|-------------|-------------|----------------|----------|
-| JINEN TRAVEL | 133 | 25 | 18.8% | 14.8 | 69.2% |
-| イナトリアートセンター計画 | 133 | 24 | 18.0% | 14.8 | 62.4% |
-| 政を祭に変える #vote_forプロジェクト | 133 | 21 | 15.8% | 14.8 | 42.1% |
-| パラ旅応援団 | 133 | 20 | 15.0% | 14.8 | 35.3% |
-| 10代・20代の「いま、やりたい」を後押しする拠点　ちばユースセンターPRISM | 133 | 17 | 12.8% | 14.8 | 15.0% |
-| 淡路島クエストカレッジ | 133 | 16 | 12.0% | 14.8 | 8.3% |
-| ビオ田んぼプロジェクト | 133 | 15 | 11.3% | 14.8 | 1.5% |
+| JINEN TRAVEL | 181 | 36 | 19.9% | 20.1 | 79.0% |
+| イナトリアートセンター計画 | 181 | 30 | 16.6% | 20.1 | 49.2% |
+| 10代・20代の「いま、やりたい」を後押しする拠点　ちばユースセンターPRISM | 181 | 25 | 13.8% | 20.1 | 24.3% |
+| パラ旅応援団 | 181 | 23 | 12.7% | 20.1 | 14.4% |
+| 政を祭に変える #vote_forプロジェクト | 181 | 21 | 11.6% | 20.1 | 4.4% |
+| 淡路島クエストカレッジ | 181 | 21 | 11.6% | 20.1 | 4.4% |
+| ビオ田んぼプロジェクト | 181 | 19 | 10.5% | 20.1 | -5.5% |
 
 ## Voter Pattern Analysis
 
 | Pattern Category | Voters | Percentage |
 |-----------------|--------|------------|
-| Very Low 1s | 38 | 55.1% |
-| Low 1s | 17 | 24.6% |
-| Medium 1s | 12 | 17.4% |
-| High 1s | 2 | 2.9% |
+| Very Low 1s | 49 | 52.7% |
+| Low 1s | 25 | 26.9% |
+| Medium 1s | 16 | 17.2% |
+| High 1s | 3 | 3.2% |
 | Very High 1s | 0 | 0.0% |
 
 This analysis suggests the existence of Moderate neutral bias in the voting data.
-Specifically, 1-vote (minimum vote value) is being used 33.4% more than the expected value.
+Specifically, 1-vote (minimum vote value) is being used 24.3% more than the expected value.
 
 Recommendations for further analysis:
 
