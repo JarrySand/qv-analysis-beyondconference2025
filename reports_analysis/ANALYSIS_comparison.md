@@ -29,10 +29,10 @@
 - どのプロジェクトが「強い選好の埋もれた声」を多く持つかを視覚化
 
 #### 分析結果
-- **強い選好（閾値4以上）の埋もれた声の合計は202票**
-- Bio Rice Field Projectは37票の「強い埋もれた声」を持ち、最も多い
-- Chiba Youth Center PRISMは35票、Awaji Island Quest Collegeは33票の埋もれた声がある
-- Inatori Art Center Planは29票、Para Travel Support Teamは26票の埋もれた声がある
+- **強い選好（閾値4以上）の埋もれた声の合計は240票**
+- Bio Rice Field Projectは44票の「強い埋もれた声」を持ち、最も多い
+- Chiba Youth Center PRISMは40票、Para Travel Support Teamは37票の埋もれた声がある
+- Awaji Island Quest Collegeは37票、Inatori Art Center Planは28票の埋もれた声がある
 - これらの強い埋もれた声はQV方式では適切に反映されるが、一人一票方式では完全に無視される
 
 ### 1.2 すべての埋もれた声（閾値1以上）
@@ -48,11 +48,11 @@
 - どのプロジェクトが多くの「埋もれた声」を持つかを視覚化
 
 #### 分析結果
-- **閾値1以上のすべての埋もれた声の合計は650票**
-- Para Travel Support Teamが101票と最も多くの埋もれた声を持つ
-- Bio Rice Field Projectは96票、#vote_for ProjectとInatori Art Center Planはそれぞれ95票の埋もれた声を持つ
-- JINEN TRAVELとChiba Youth Center PRISMはそれぞれ89票の埋もれた声を持つ
-- 最も少ないAwaji Island Quest Collegeでも85票の埋もれた声がある
+- **閾値1以上のすべての埋もれた声の合計は797票**
+- Para Travel Support Teamが125票と最も多くの埋もれた声を持つ
+- Inatori Art Center Planは116票、Bio Rice Field Projectは117票の埋もれた声を持つ
+- JINEN TRAVELは114票、#vote_for Projectは113票の埋もれた声を持つ
+- Chiba Youth Center PRISMは109票、Awaji Island Quest Collegeは103票の埋もれた声を持つ
 - 一人一票方式では、これらの大量の埋もれた声が完全に無視される
 
 ### 1.3 埋もれた声の比較分析
@@ -68,8 +68,8 @@
 - 強い選好（閾値4以上）と通常の選好（閾値1以上）の違いを比較できる
 
 #### 分析結果
-- **閾値1では、全投票数783票のうち650票（約83%）が埋もれた声となっている**
-- **閾値4では、全投票数783票のうち202票（約26%）が埋もれた声となっている**
+- **閾値1では、全投票数976票のうち797票（約82%）が埋もれた声となっている**
+- **閾値4では、全投票数976票のうち240票（約25%）が埋もれた声となっている**
 - どちらの閾値でも、一人一票方式では大量の「埋もれた声」が無視されることが明らかに
 - QV方式は、これらの埋もれた声も含めて各プロジェクトの支持度を適切に評価できる
 
@@ -86,8 +86,8 @@
 - どのプロジェクトが相対的に多くの「埋もれた声」を持つかを把握できる
 
 #### 分析結果
-- 閾値1では、各プロジェクトの投票の85-95%が埋もれた声となっている
-- 閾値4では、強い選好の約60-75%が埋もれた声となっている
+- 閾値1では、各プロジェクトの投票の70-90%が埋もれた声となっている
+- 閾値4では、強い選好の約50-75%が埋もれた声となっている
 - どちらの閾値でも、一人一票方式では大量の「埋もれた声」が無視されることが明らかに
 - QV方式は、これらの埋もれた声も含めて各プロジェクトの支持度を適切に評価できる
 
@@ -115,14 +115,14 @@
 
 | プロジェクト | 票数 | 割合 |
 |------------|------|-----|
-| Bio Rice Field Project | 37 | 18.3% |
-| Chiba Youth Center PRISM | 35 | 17.3% |
-| Awaji Island Quest College | 33 | 16.3% |
-| Inatori Art Center Plan | 29 | 14.4% |
-| Para Travel Support Team | 26 | 12.9% |
-| #vote_for Project | 22 | 10.9% |
-| JINEN TRAVEL | 20 | 9.9% |
-| **合計** | **202** | **100%** |
+| Bio Rice Field Project | 44 | 18.3% |
+| Chiba Youth Center PRISM | 40 | 16.7% |
+| Para Travel Support Team | 37 | 15.4% |
+| Awaji Island Quest College | 37 | 15.4% |
+| Inatori Art Center Plan | 28 | 11.7% |
+| #vote_for Project | 27 | 11.3% |
+| JINEN TRAVEL | 27 | 11.3% |
+| **合計** | **240** | **100%** |
 
 この分析により、QV方式が一人一票方式では完全に無視される「埋もれた声」を適切に拾い上げ、集合的意思決定の質を高めていることが明確になりました。さらに、閾値を変えた分析により、「強い選好」だけでなく「すべての選好」においても同様の効果があることが示されました。
 
@@ -176,7 +176,7 @@
 ### 分析結果
 - 一人一票方式では上位プロジェクト（特にChiba Youth Center PRISM）に予算が集中する傾向がある
 - QV方式ではより均等な予算配分が実現し、上位と下位の差が小さくなる
-- Para Travel Support TeamとInatori Art Center Planは一人一票方式よりもQV方式で多くの予算を獲得
+- Para Travel Support Team、#vote_for Project、JINEN TRAVEL、Inatori Art Center Planは一人一票方式よりもQV方式で多くの予算を獲得
 
 ## 5. ジニ係数による不平等度分析
 
@@ -225,8 +225,8 @@
 - どのプロジェクトが相対的に多く/少なく予算を獲得するかを把握できる
 
 ### 分析結果
-- 一人一票方式では、上位プロジェクト（Chiba Youth Center PRISM）が25%の予算を獲得
-- QV方式では、最大のシェアでも17.7%にとどまり、より平等な配分となっている
+- 一人一票方式では、上位プロジェクト（Chiba Youth Center PRISM）が24.3%の予算を獲得
+- QV方式では、最大のシェアでも17.8%にとどまり、より平等な配分となっている
 - QV方式では相対的に低評価のプロジェクトも一定の予算シェアを確保できている
 
 ## 8. 得票数比較
@@ -243,7 +243,7 @@
 
 ### 分析結果
 - QV方式では全てのプロジェクトが一定の得票数を確保しており、相対的な差が小さい
-- 一人一票方式ではChiba Youth Center PRISMが突出して高い得票を得る一方、#vote_for Projectなどは低い得票にとどまる
+- 一人一票方式ではChiba Youth Center PRISMが突出して高い得票を得る一方、Inatori Art Center PlanやJINEN TRAVELなどは低い得票にとどまる
 - これは一人一票方式が「多数決」の性質を持つのに対し、QV方式は「選好強度」も考慮することの違いを示している
 
 ## 結論

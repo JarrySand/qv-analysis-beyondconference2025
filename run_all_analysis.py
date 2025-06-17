@@ -25,7 +25,7 @@ def kill_process(process, script_path):
     else:
         process.kill()
 
-def run_script(script_path, description, timeout=300):
+def run_script(script_path, description, timeout=600):
     """
     Pythonスクリプトを実行し、結果を表示する
     
@@ -116,7 +116,7 @@ def main():
     # コマンドライン引数の処理
     parser = argparse.ArgumentParser(description='QV分析の全プロセスを実行するスクリプト')
     parser.add_argument('--script', '-s', help='実行する特定のスクリプト (例: src/analysis/analyze_votes.py)')
-    parser.add_argument('--timeout', '-t', type=int, default=300, help='スクリプト実行のタイムアウト秒数 (デフォルト: 300秒)')
+    parser.add_argument('--timeout', '-t', type=int, default=600, help='スクリプト実行のタイムアウト秒数 (デフォルト: 600秒)')
     parser.add_argument('--continue-on-error', '-c', action='store_true', help='エラーが発生しても続行する')
     args = parser.parse_args()
     
@@ -164,15 +164,31 @@ def main():
         
         # 7. 追加の詳細分析（最後に実行）
         ("src/simulation/neutral_bias/analyze_credit_usage.py", "クレジット使用率分析"),
-        ("src/simulation/neutral_bias/simulate_utility_max_model.py", "効用最大化モデル分析"),
+        ("src/simulation/neutral_bias/identify_voting_patterns.py", "投票パターンの特定とクラスタリング"),
+        ("src/simulation/neutral_bias/analyze_vote_patterns.py", "投票パターンの詳細分析"),
+        ("src/simulation/neutral_bias/simulate_utility_max_model.py", "効用最大化モデル分析", 900),  # 長時間実行のため15分に設定
     ]
     
     # 特定のスクリプトのみ実行する場合
     if args.script:
         if os.path.exists(args.script):
-            # 該当するスクリプトの説明を検索
-            description = next((desc for script, desc in scripts if script == args.script), "指定スクリプト")
-            success = run_script(args.script, description, args.timeout)
+            # 該当するスクリプトの説明とタイムアウトを検索
+            description = "指定スクリプト"
+            timeout = args.timeout
+            for script_info in scripts:
+                if len(script_info) == 3:
+                    script_path, desc, custom_timeout = script_info
+                    if script_path == args.script:
+                        description = desc
+                        timeout = custom_timeout
+                        break
+                else:
+                    script_path, desc = script_info
+                    if script_path == args.script:
+                        description = desc
+                        break
+            
+            success = run_script(args.script, description, timeout)
             print(f"\n実行結果: {'成功' if success else '失敗'}")
             return
         else:
@@ -188,9 +204,16 @@ def main():
     
     # 各スクリプトの実行
     results = []
-    for script_path, description in scripts:
+    for script_info in scripts:
+        if len(script_info) == 3:
+            script_path, description, custom_timeout = script_info
+            timeout = custom_timeout
+        else:
+            script_path, description = script_info
+            timeout = args.timeout
+            
         if os.path.exists(script_path):
-            success = run_script(script_path, description, args.timeout)
+            success = run_script(script_path, description, timeout)
             results.append((script_path, description, success))
             
             # エラーが発生し、続行フラグがない場合は処理を中断

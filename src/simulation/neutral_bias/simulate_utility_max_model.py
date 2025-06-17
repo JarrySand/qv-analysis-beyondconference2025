@@ -6,6 +6,7 @@ Simulation and comparison analysis of the utility maximization hypothesis model 
 """
 
 import os
+import gc
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -624,7 +625,7 @@ def main():
     # Simulate using traditional utility maximization model (no zero votes)
     print("\nTraditional utility maximization model simulation:")
     traditional_sim_counts, traditional_sim_percentages = simulate_optimal_votes(
-        n_simulations=7000,  # Simulate for 7 projects * 1000 voters
+        n_simulations=1000,  # 1000 simulations for efficiency
         n_projects=7,
         max_credits=99,
         preference_distribution='uniform'
@@ -658,6 +659,11 @@ def main():
     traditional_output_file = os.path.join(OUTPUT_DIR, 'utility_max_comparison.png')
     plot_distribution_comparison(traditional_comparison, traditional_output_file)
     
+    # Plot filtered comparison (NEW)
+    filtered_output_file = os.path.join(OUTPUT_DIR, 'filtered_utility_max_comparison.png')
+    plot_distribution_comparison(filtered_comparison, filtered_output_file)
+    print(f"Filtered comparison plot saved to: {filtered_output_file}")
+    
     # Approach 2: Enhanced model with 0 votes
     print("\nApproach 2: Utility maximization model including 0 votes")
     
@@ -676,18 +682,21 @@ def main():
     actual_zero_percent = actual_percentages.get(0, 0)
     
     print("Parameter optimization in progress...")
-    for threshold in thresholds:
-        for cost in costs:
+    for i, threshold in enumerate(thresholds):
+        for j, cost in enumerate(costs):
             try:
-                print(f"  Debug: Starting simulation (threshold={threshold}, cost={cost})")
+                print(f"  Debug: Starting simulation {i*len(costs)+j+1}/{len(thresholds)*len(costs)} (threshold={threshold}, cost={cost})")
                 zero_sim_counts, zero_sim_percentages = simulate_optimal_votes_with_zero(
-                    n_simulations=7000,
+                    n_simulations=1000,
                     n_projects=7,
                     max_credits=99,
                     preference_distribution='uniform',
                     indifference_threshold=threshold,
                     decision_cost=cost
                 )
+                
+                # Force garbage collection after each simulation
+                gc.collect()
                 
                 # Calculate zero vote percentage difference
                 model_zero_percent = zero_sim_percentages.get(0, 0)
@@ -723,8 +732,18 @@ def main():
         zero_comparison = compare_distributions(actual_percentages, best_sim_percentages)
         
         # Plot enhanced model comparison
-        zero_output_file = os.path.join(OUTPUT_DIR, 'utility_max_with_zero_comparison.png')
+        zero_output_file = os.path.join(OUTPUT_DIR, 'zero_model_comparison.png')
         plot_distribution_comparison(zero_comparison, zero_output_file)
+        print(f"Zero model comparison plot saved to: {zero_output_file}")
+        
+        # Plot comprehensive model comparison (NEW)
+        distributions_dict = {
+            '従来モデル': traditional_sim_percentages,
+            'ゼロ投票モデル': best_sim_percentages
+        }
+        model_comparison_file = os.path.join(OUTPUT_DIR, 'model_comparison.png')
+        plot_multiple_distributions(actual_percentages, distributions_dict, model_comparison_file)
+        print(f"Model comparison plot saved to: {model_comparison_file}")
         
         # Chi-square test for the best model
         try:

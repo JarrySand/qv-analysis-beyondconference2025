@@ -33,7 +33,7 @@ ea39dab8-366b-4739-a95b-18317432352f,7,Politics to Festival #vote_for Project,2.
 ff31f7d2-7535-416e-b36f-5a9a34e5e4fb,6,Chiba Youth Center PRISM - Support for Teens and 20s,2.3333333333333335,1,2.571428571428571,4,0
 15445933-70e9-46da-831c-0297b626792a,6,Bio Rice Field Project,3.0,2,2.0,3,0
 7c55370f-25e8-44c0-ba6a-7ef515bf8fc2,5,Politics to Festival #vote_for Project,3.1666666666666665,1,1.5789473684210527,2,0
-82fa49d5-a7fa-4857-9b47-f3813d9c7d36,6,Awaji Island Quest College,3.1666666666666665,2,1.8947368421052633,1,0
+82fa49d5-a7fa-4857-9b47-f3813d9c7d36,0,Politics to Festival #vote_for Project,0.0,0,inf,0,7
 79146ba9-5ef3-4815-b220-6b1a70ac2dcb,7,Chiba Youth Center PRISM - Support for Teens and 20s,1.6666666666666667,0,4.2,0,4
 a6519744-cc92-4eb8-a84a-374906a9bc2f,8,JINEN TRAVEL,2.1666666666666665,1,3.6923076923076925,4,0
 a8793c64-4c39-4e43-b93b-ffcf410a0e14,6,Inatori Art Center Plan,3.0,2,2.0,3,0
@@ -55,7 +55,7 @@ d994c7eb-bada-4e0d-883b-5b9b5dd50e2d,7,Bio Rice Field Project,2.5,1,2.8,3,0
 cb728023-5e99-4973-9860-98a76d46664b,7,Para Travel Support Team,2.6666666666666665,2,2.625,4,0
 c4058e2b-c263-44a7-a5b2-b7d6f07138a7,9,Awaji Island Quest College,1.3333333333333333,0,6.75,3,2
 11cbb73c-4efa-4c0e-8c77-eafd9a48c4c0,5,Bio Rice Field Project,3.3333333333333335,3,1.5,0,0
-7734b8bf-4016-47a4-87c0-4ba3322491be,7,Awaji Island Quest College,2.6666666666666665,2,2.625,4,0
+7734b8bf-4016-47a4-87c0-4ba3322491be,9,Awaji Island Quest College,1.5,1,6.0,5,0
 650dcbe6-14ac-45e1-9f06-474afe6b2e22,7,JINEN TRAVEL,2.5,0,2.8,2,1
 bf330102-d8d4-414e-9d4e-d8ba6eee3005,7,Chiba Youth Center PRISM - Support for Teens and 20s,2.0,0,3.5,0,3
 d1775f04-1353-454b-9676-5b10d09f0b55,7,Chiba Youth Center PRISM - Support for Teens and 20s,2.0,0,3.5,0,3
@@ -123,3 +123,58 @@ de7586c4-9eb6-4fc9-b071-afee111a1df1,6,Chiba Youth Center PRISM - Support for Te
 af599f88-3b0f-4729-ba6e-6f4034bbb5eb,8,Inatori Art Center Plan,1.8333333333333333,0,4.363636363636364,3,1
 6238c7cc-41b0-472a-9926-545b7fba995f,5,Awaji Island Quest College,3.3333333333333335,2,1.5,1,0
 6c451cde-f197-4f8d-8cb4-0d50bfdef79d,7,Politics to Festival #vote_for Project,1.6666666666666667,0,4.2,3,2
+5d1ac02c-41e7-4bee-b5db-39c344a0f39c,9,Chiba Youth Center PRISM - Support for Teens and 20s,0.0,0,inf,0,6
+1ae36752-fe30-45c8-a097-adb4ef70041a,9,Awaji Island Quest College,0.0,0,inf,0,6
+50b859bc-094c-470b-a6ca-8384ce016c8e,9,Awaji Island Quest College,0.0,0,inf,0,6
+9e33b1e8-0476-4a71-822f-7a43995f28fb,6,Para Travel Support Team,2.8333333333333335,1,2.1176470588235294,3,0
+34ed64de-acdc-4804-9ccb-828db0456417,0,Politics to Festival #vote_for Project,0.0,0,inf,0,7
+ac8fe3ba-cd7d-4d6c-870f-6102e12d19cb,9,Awaji Island Quest College,1.1666666666666667,0,7.7142857142857135,2,3
+27c311e4-cbc7-4929-8b71-ef585e5af03e,9,Awaji Island Quest College,0.0,0,inf,0,6
+8c0339db-5eb7-49e2-9f0f-9ed943b27f1a,9,Awaji Island Quest College,0.0,0,inf,0,6
+b19aa098-0c92-4b52-a01b-42116d35d269,5,Politics to Festival #vote_for Project,3.0,1,1.6666666666666667,2,0
+766076fb-e0a6-4778-981e-0596461bce8d,7,Inatori Art Center Plan,2.3333333333333335,0,3.0,3,1
+09c8af99-75c2-4919-942f-7c74160bad55,7,Bio Rice Field Project,1.6666666666666667,0,4.2,1,3
+bfedb177-4300-4161-8677-190f1b46cb06,7,Bio Rice Field Project,2.3333333333333335,1,3.0,4,0
+49b90e5c-feb1-494a-8827-ce41b3964605,7,Inatori Art Center Plan,1.5,0,4.666666666666667,2,3
+00c1f137-71c8-4545-9607-cf584b0563d7,7,Awaji Island Quest College,2.6666666666666665,1,2.625,3,0
+db75a69d-ba11-4241-ab92-027cad642030,7,Awaji Island Quest College,1.3333333333333333,0,5.25,1,4
+edcc2063-fec4-490e-84c9-46ea759ec648,5,Politics to Festival #vote_for Project,3.3333333333333335,2,1.5,1,0
+f655c823-f6ec-4495-afd8-d571713cb9cf,6,Bio Rice Field Project,2.3333333333333335,0,2.571428571428571,1,2
+397dad68-74a3-4e40-aa9e-97405fd10c1c,9,Awaji Island Quest College,0.0,0,inf,0,6
+72898b10-37a8-4cda-90e9-f8e7f68ab460,6,Awaji Island Quest College,2.8333333333333335,2,2.1176470588235294,3,0
+1c2d5527-2466-48d4-a1ec-b123d6aaf90c,1,Politics to Festival #vote_for Project,0.0,0,inf,1,6
+745e82ce-0ab4-4adb-9ebb-a0876164714f,6,Awaji Island Quest College,0.0,0,inf,0,6
+1aba7060-9607-4fa8-b846-1dbacbc49980,6,Chiba Youth Center PRISM - Support for Teens and 20s,2.8333333333333335,1,2.1176470588235294,3,0
+5f36547f-e703-41c2-ba79-e68a2cfac1c4,7,Chiba Youth Center PRISM - Support for Teens and 20s,2.6666666666666665,2,2.625,4,0
+5598281f-6c15-4fa9-a8f5-37a5f5eab187,8,Bio Rice Field Project,2.3333333333333335,2,3.4285714285714284,4,0
+7055ed1d-fc3a-4667-ad52-bbeaa9a26074,9,Awaji Island Quest College,0.0,0,inf,0,6
+0dd87e9f-1809-42bc-8938-e0470b1c351d,5,Politics to Festival #vote_for Project,3.3333333333333335,2,1.5,2,0
+08736f59-d4bd-4e2a-a230-5c69fabe1ecb,9,Politics to Festival #vote_for Project,1.5,1,6.0,5,0
+ff8c79b5-b65b-43f0-a425-3bf44beb4aa4,8,Bio Rice Field Project,1.1666666666666667,0,6.857142857142857,1,4
+a043d5f1-23f0-4bc2-b48e-ec609274c4e9,9,Chiba Youth Center PRISM - Support for Teens and 20s,0.6666666666666666,0,13.5,0,5
+d6e35846-99ae-43d7-bd40-33562fc3a19e,9,Awaji Island Quest College,0.0,0,inf,0,6
+a7977961-4f78-4e01-9752-664a0a897204,9,Politics to Festival #vote_for Project,1.1666666666666667,1,7.7142857142857135,6,0
+d1e57bd2-8761-47c6-beef-aa1c0a862530,5,Bio Rice Field Project,3.0,2,1.6666666666666667,3,0
+8ad74d99-724e-4edd-ae01-fc2ccd6aff65,9,Awaji Island Quest College,0.0,0,inf,0,6
+b6718c3a-f8f7-4e14-8c25-bc71ae2e8200,8,Chiba Youth Center PRISM - Support for Teens and 20s,1.3333333333333333,0,6.0,0,4
+f76b66d5-86d1-4f6c-8780-021e28aaaf53,9,Politics to Festival #vote_for Project,1.6666666666666667,1,5.3999999999999995,6,0
+6cd614d2-601f-46fa-847f-bcef2d1b1ba8,8,Awaji Island Quest College,1.5,1,5.333333333333333,5,0
+0db83c3a-21c1-478a-b512-cf7c82abbd17,4,Bio Rice Field Project,2.0,0,2.0,4,1
+85dcec89-ea25-41df-bde7-65e5fa059521,7,Awaji Island Quest College,2.6666666666666665,1,2.625,3,0
+f51383f1-b3ee-4d18-bf10-faecbc157288,6,Awaji Island Quest College,1.8333333333333333,0,3.272727272727273,0,4
+31167572-3a56-4b71-9efe-821a90073832,7,Para Travel Support Team,2.6666666666666665,2,2.625,4,0
+97239960-dbe7-44b9-b7ba-ef010aded146,9,Politics to Festival #vote_for Project,1.0,0,9.0,2,3
+cb824cba-54ef-49f3-92ba-fea2e455ef54,5,Politics to Festival #vote_for Project,3.0,1,1.6666666666666667,3,0
+851ac237-8ca0-4e46-8156-91632a6ece24,8,Politics to Festival #vote_for Project,1.8333333333333333,1,4.363636363636364,4,0
+ea4619cf-4e28-4adc-a602-33a0ef066c85,9,Para Travel Support Team,0.16666666666666666,0,54.0,1,5
+63377003-fba3-4510-99bc-5ab4f3f0818c,9,Para Travel Support Team,0.0,0,inf,0,6
+4242a758-7c54-4629-a541-94ee0dc84709,6,Awaji Island Quest College,2.6666666666666665,0,2.25,2,1
+930ea710-f7f0-48e0-9fef-687b9d063d71,9,Chiba Youth Center PRISM - Support for Teens and 20s,0.6666666666666666,0,13.5,0,5
+ffc42143-d88d-404d-a884-c1c49abb08d8,9,Chiba Youth Center PRISM - Support for Teens and 20s,1.1666666666666667,0,7.7142857142857135,2,3
+b6451fa2-c530-4dd9-bf08-9f45c3ab4cc0,6,Chiba Youth Center PRISM - Support for Teens and 20s,2.3333333333333335,0,2.571428571428571,3,1
+3e187501-dc7f-4e31-940b-6ff0dc65ed13,6,Awaji Island Quest College,3.0,2,2.0,2,0
+348a1567-f08b-486a-9ea8-ba5cbb914d98,9,Awaji Island Quest College,0.8333333333333334,0,10.799999999999999,1,4
+66756a7c-f08a-4499-8f76-2f0d2616cc0b,9,JINEN TRAVEL,1.0,0,9.0,2,3
+c6be8d4f-a3a8-46a6-a398-eeb7c7459e46,5,Chiba Youth Center PRISM - Support for Teens and 20s,3.3333333333333335,1,1.5,1,0
+461dc0b2-f968-48aa-9486-5248b84800a5,8,Chiba Youth Center PRISM - Support for Teens and 20s,0.8333333333333334,0,9.6,0,5
+93a79621-293a-4915-872b-66bad59fd355,9,Chiba Youth Center PRISM - Support for Teens and 20s,0.0,0,inf,0,6

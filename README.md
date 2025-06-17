@@ -40,6 +40,8 @@ qv-analysis/
 │   │   ├── buried_voices.csv      # 埋もれた声分析データ（閾値4）
 │   │   ├── buried_voices_comparison.csv # 閾値間の埋もれた声比較データ
 │   │   ├── vote_statistics.csv
+│   │   ├── voter_statistics.csv   # 投票者統計データ
+│   │   ├── voting_statistics.csv  # 投票統計データ
 │   │   ├── one_person_one_vote_results.csv  # 一人一票シミュレーション結果
 │   │   ├── voting_methods_comparison.csv    # 投票方式比較データ
 │   │   └── ...
@@ -67,13 +69,15 @@ qv-analysis/
 │   │   │   └── preference_intensity_heatmap.png        # 選好強度ヒートマップ
 │   │   └── neutral_bias/          # 中立バイアス分析グラフ
 │   ├── reports/                   # 分析レポート
-│   │   ├── credit_usage_report.md
-│   │   ├── FINDINGS.md
-│   │   ├── voting_methods_comparison_report.txt  # 投票方式比較レポート
+│   │   ├── budget_allocation_table.txt        # 予算配分表
+│   │   ├── project_name_mapping.txt           # プロジェクト名マッピング
+│   │   ├── results_summary.txt                # 結果サマリー
+│   │   ├── statistics_report.html             # 統計レポート（HTML）
+│   │   ├── statistics_report.txt              # 統計レポート（テキスト）
+│   │   ├── voting_methods_comparison.txt      # 投票方式比較レポート
 │   │   └── ...
-│   └── tables/                    # 生成されたテーブル
-│       ├── budget_allocation_table.txt
-│       └── statistics_report.txt
+│   └── tables/                    # 生成されたテーブル（廃止予定）
+│       └── ...
 │
 ├── src/                           # ソースコード
 │   ├── analysis/                  # 分析スクリプト
@@ -102,7 +106,13 @@ qv-analysis/
 │       ├── convert_to_csv.py      # データ変換ユーティリティ
 │       └── count_voters.py
 │
+├── reports_analysis/              # 分析レポート（詳細版）
+│   ├── ANALYSIS_basic.md           # 基本分析レポート
+│   ├── ANALYSIS_comparison.md      # 投票方式比較分析レポート
+│   └── ANALYSIS_neutral.md         # 中立バイアス分析レポート
 ├── candidate_name_change_workflow.md  # 候補者名変更の手順
+├── final_report.md                   # 総合分析レポート
+├── REPORTS_ANALYSIS_UPDATE_SUMMARY.md # レポート更新サマリー
 ├── requirements.txt                  # 必要なPythonパッケージリスト
 ├── run_all_analysis.py               # 完全な分析パイプラインを実行
 └── run_data_processing.py            # データ変換ステップのみを実行
@@ -171,18 +181,24 @@ python run_data_processing.py
 - **投票方法比較**: QVと他の投票システムを対比
 - **感度分析**: パラメータ変更が結果にどう影響するかをテスト
 - **中立バイアス分析**: 理想的な投票モデルとの比較によるバイアス検出
+- **投票者クラスター分析**: 投票パターンに基づく投票者グループの識別
+- **効用最大化モデル分析**: 理論的投票行動との比較検証
 
 ## プロジェクト概要
 
-このプロジェクトは、Quadratic Voting（二次投票）の投票結果を分析するためのツールです。ソーシャルセクターの若手起業家を対象としたイベントでの投票データを分析し、効果的な資金配分をサポートします。
+このプロジェクトは、Quadratic Voting（二次投票）の投票結果を分析するためのツールです。ソーシャルセクターの若手起業家を対象とした複数回の投票イベント（Beyond Conference 2025本会議および追加オンライン投票）での投票データを統合し、効果的な資金配分をサポートします。
 
 ## イベント詳細
 
 - **対象**: ソーシャルセクターの若手起業家
 - **イベント名**: Beyond Conference 2025
-- **開催日**: 2025年4月26日
-- **開催場所**: 淡路島
-- **投票形式**: ピッチプレゼン後にオーディエンスによるリアルタイム投票
+- **投票実施日程**:
+  - **第1回**: 2025年4月26日（Beyond Conference 2025本会議）
+    - **開催場所**: 淡路島
+    - **投票形式**: ピッチプレゼン後にオーディエンスによるリアルタイム投票
+  - **第2回**: 2025年6月9日（オンライン追加投票）
+    - **開催場所**: オンライン
+    - **投票形式**: オンラインミーティング形式での追加投票
 - **投票者**: 他のソーシャルセクター起業家、自治体職員、企業CSR担当者など
 - **賞金**: 投票結果に応じて25万円のプール資金が提供される
 - **使用ツール**: [qv.geek.sg](https://qv.geek.sg)
@@ -191,9 +207,9 @@ python run_data_processing.py
 
 ## 分析目的
 
-このプロジェクトでは、Quadratic Votingによる投票データを分析し、以下の点を明らかにします：
+このプロジェクトでは、複数回実施されたQuadratic Votingによる投票データを統合し、以下の点を明らかにします：
 
-1. 各プロジェクトの支持度合い
+1. 各プロジェクトの支持度合い（複数回投票の統合結果）
 2. 投票パターンの分析
 3. 資金配分の最適化提案
 4. 投票行動における潜在的バイアスの特定
@@ -203,7 +219,8 @@ python run_data_processing.py
 
 - データ収集: 
   - qv.geek.sgのAPIエンドポイント (`https://api.qv.geek.sg/election/{uid}`) からのデータ取得
-  - 投票結果はJSONファイルとして保存済み
+  - 複数回の投票結果を統合してJSONファイルとして保存
+  - 最終統合データ: 179名の投票者、976票の投票データ
 - データ分析: Python (pandas, numpy, scipy)
 - 可視化: matplotlib, seaborn, plotly
 
@@ -213,12 +230,24 @@ python run_data_processing.py
 - 投票パターンの分析
 - 予算配分の計算（二次投票方式）
 - 統計レポート生成（CSV、テキスト、HTML形式）
-- データ可視化（棒グラフ、円グラフ）
+- データ可視化（棒グラフ、円グラフ、ヒートマップ、散布図）
 - 投票方式比較シミュレーション（QV vs 一人一票方式）
+- 投票者行動の詳細分析（クラスター分析、相関分析）
+- 理論モデルとの比較検証（効用最大化、中立バイアス検証）
 
 ## 分析結果の公開サイト
+今後実装予定
 
-QV投票方式と一人一票方式の比較分析結果を[インタラクティブなウェブサイト](https://tkgshn.github.io/qv-analysis-beyondconference2025/)で公開しています。このサイトでは、各種グラフをインタラクティブに操作しながら、両投票方式の違いを詳細に確認できます。
+
+## 分析レポート
+
+詳細な分析結果は以下のレポートで確認できます：
+
+- **[総合分析レポート](final_report.md)**: 全分析結果の統合レポート
+- **[基本分析レポート](reports_analysis/ANALYSIS_basic.md)**: 投票データの基本統計と分析
+- **[比較分析レポート](reports_analysis/ANALYSIS_comparison.md)**: QV方式と一人一票方式の詳細比較
+- **[中立バイアス分析レポート](reports_analysis/ANALYSIS_neutral.md)**: 投票行動の理論的検証
+- **[レポート更新サマリー](REPORTS_ANALYSIS_UPDATE_SUMMARY.md)**: データ更新に伴う修正内容の詳細
 
 ## ライセンス
 

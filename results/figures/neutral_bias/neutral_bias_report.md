@@ -2,10 +2,10 @@
 
 ## 1. Basic Statistics
 
-- Total votes: 931
-- Total voters: 124
-- Total 1-point votes: 138 (14.82%)
-- Total 0-point votes: -63
+- Total votes: 1267
+- Total voters: 179
+- Total 1-point votes: 175 (13.81%)
+- Total 0-point votes: -14
 
 ## 2. Theoretical Vote Distribution Analysis
 
@@ -26,16 +26,16 @@
 ### Distribution Test Results
 
 #### Compared to Uniform Distribution
-- Chi-square value: 291.7487
+- Chi-square value: 348.5296
 - p-value: 0.00000000
-- Excess 1-point votes: 34.56 votes
-- Excess 1-point percentage: 33.40%
+- Excess 1-point votes: 34.22 votes
+- Excess 1-point percentage: 24.31%
 
 #### Compared to Cost-Adjusted Distribution
-- Chi-square value: 988.6016
+- Chi-square value: 1133.4535
 - p-value: 0.00000000
-- Excess 1-point votes: -466.64 votes
-- Excess 1-point percentage: -77.18%
+- Excess 1-point votes: -647.85 votes
+- Excess 1-point percentage: -78.73%
 
 **Result**: Vote values differ significantly even from the cost-adjusted distribution. Neutral bias likely exists beyond what can be explained by QV's cost structure.
 
@@ -43,27 +43,27 @@
 
 | Project Name | Total Votes | 1-Point Votes | 1-Point % | Average 1-Point % | Deviation |
 |--------------|---------|-------|---------|----------|----------|
-| JINEN TRAVEL | 133 | 25 | 18.80% | 14.82% | +3.97% |
-| Inatori Art Center Plan | 133 | 24 | 18.05% | 14.82% | +3.22% |
-| Politics to Festival #vote_for Project | 133 | 21 | 15.79% | 14.82% | +0.97% |
-| Para Travel Support Team | 133 | 20 | 15.04% | 14.82% | +0.21% |
-| Chiba Youth Center PRISM - Support for Teens and 20s | 133 | 17 | 12.78% | 14.82% | -2.04% |
-| Awaji Island Quest College | 133 | 16 | 12.03% | 14.82% | -2.79% |
-| Bio Rice Field Project | 133 | 15 | 11.28% | 14.82% | -3.54% |
+| JINEN TRAVEL | 181 | 36 | 19.89% | 13.81% | +6.08% |
+| Inatori Art Center Plan | 181 | 30 | 16.57% | 13.81% | +2.76% |
+| Chiba Youth Center PRISM - Support for Teens and 20s | 181 | 25 | 13.81% | 13.81% | +0.00% |
+| Para Travel Support Team | 181 | 23 | 12.71% | 13.81% | -1.10% |
+| Politics to Festival #vote_for Project | 181 | 21 | 11.60% | 13.81% | -2.21% |
+| Awaji Island Quest College | 181 | 21 | 11.60% | 13.81% | -2.21% |
+| Bio Rice Field Project | 181 | 19 | 10.50% | 13.81% | -3.31% |
 
 ## 4. Voter Pattern Analysis
 
 | 1-Point Use Pattern | Voter Count | Percentage |
 |---------------|---------|------|
-| Very Low 1s | 38 | 30.65% |
-| Low 1s | 17 | 13.71% |
-| Medium 1s | 12 | 9.68% |
-| High 1s | 2 | 1.61% |
+| Very Low 1s | 49 | 27.37% |
+| Low 1s | 25 | 13.97% |
+| Medium 1s | 16 | 8.94% |
+| High 1s | 3 | 1.68% |
 | Very High 1s | 0 | 0.00% |
 
 ## 5. Summary and Next Steps
 
-The analysis suggests no evidence of neutral bias in the voting data. Specifically, 1-point votes (minimum vote value) are used -77.18% more than theoretically expected, even after accounting for QV's quadratic cost structure.
+The analysis suggests no evidence of neutral bias in the voting data. Specifically, 1-point votes (minimum vote value) are used -78.73% more than theoretically expected, even after accounting for QV's quadratic cost structure.
 
 Based on these results, the following additional analyses are recommended:
 

@@ -2,214 +2,210 @@
 
 ## Basic Statistical Information
 
-- Total Number of Voters: 124
+- Total Number of Voters: 179
 - optimal number of clusters: 7
-- Maximum Silhouette Score: 0.1926
+- Maximum Silhouette Score: 0.2287
 
 ## Correlation Analysis Between Projects
-
-### Project Pairs with Strong Negative Correlation
-
-- JINEN TRAVEL と Chiba Youth Center PRISM - Support for Teens and 20s: -0.3313
 
 ## Voter Behavior Analysis
 
 - Average Maximum Vote/Other Votes Ratio: inf
-- Average Number of Projects Where Small Votes (1-2) Were Used: 2.21
-- Average Number of Unvoted Projects (0 votes): 1.07
+- Average Number of Projects Where Small Votes (1-2) Were Used: 2.09
+- Average Number of Unvoted Projects (0 votes): 1.61
 
-- Number of Voters with Extreme Voting Ratio (5x or more): 25 (20.2%)
+- Number of Voters with Extreme Voting Ratio (5x or more): 57 (31.8%)
 
 ## Cluster Analysis Results
 
-### Cluster 2
+### Cluster 0
 
-- Size: 40voters (32.3%)
-- Main Project: Awaji Island Quest College (average 3.98votes)
-- Secondary Project: Bio Rice Field Project (average 3.73votes)
-- Voting Ratio (Main/Secondary): 1.07
+- Size: 64voters (35.8%)
+- Main Project: Inatori Art Center Plan (average 3.88votes)
+- Secondary Project: Chiba Youth Center PRISM - Support for Teens and 20s (average 3.66votes)
+- Voting Ratio (Main/Secondary): 1.06
 
 #### Average Vote Value by Project
 
-- Awaji Island Quest College: 3.98
-- Bio Rice Field Project: 3.73
-- Inatori Art Center Plan: 3.65
-- Chiba Youth Center PRISM - Support for Teens and 20s: 3.60
-- Para Travel Support Team: 3.50
-- Politics to Festival #vote_for Project: 2.85
-- JINEN TRAVEL: 2.85
+- Inatori Art Center Plan: 3.88
+- Chiba Youth Center PRISM - Support for Teens and 20s: 3.66
+- Awaji Island Quest College: 3.42
+- Bio Rice Field Project: 3.34
+- Para Travel Support Team: 3.17
+- Politics to Festival #vote_for Project: 2.89
+- JINEN TRAVEL: 2.39
 
 #### Small Vote Usage Pattern
 
-- Politics to Festival #vote_for Project: 40.0%
-- JINEN TRAVEL: 35.0%
-- Bio Rice Field Project: 20.0%
-- Inatori Art Center Plan: 17.5%
-- Chiba Youth Center PRISM - Support for Teens and 20s: 17.5%
-- Para Travel Support Team: 15.0%
-- Awaji Island Quest College: 10.0%
+- JINEN TRAVEL: 46.9%
+- Politics to Festival #vote_for Project: 37.5%
+- Awaji Island Quest College: 25.0%
+- Inatori Art Center Plan: 25.0%
+- Bio Rice Field Project: 25.0%
+- Para Travel Support Team: 20.3%
+- Chiba Youth Center PRISM - Support for Teens and 20s: 15.6%
 
 ### Cluster 1
 
-- Size: 12voters (9.7%)
-- Main Project: Bio Rice Field Project (average 7.08votes)
-- Secondary Project: Chiba Youth Center PRISM - Support for Teens and 20s (average 3.50votes)
-- Voting Ratio (Main/Secondary): 2.02
+- Size: 19voters (10.6%)
+- Main Project: Bio Rice Field Project (average 7.16votes)
+- Secondary Project: Chiba Youth Center PRISM - Support for Teens and 20s (average 2.63votes)
+- Voting Ratio (Main/Secondary): 2.72
 
 #### Average Vote Value by Project
 
-- Bio Rice Field Project: 7.08
-- Chiba Youth Center PRISM - Support for Teens and 20s: 3.50
-- Awaji Island Quest College: 2.50
-- Para Travel Support Team: 2.08
-- Inatori Art Center Plan: 0.92
-- JINEN TRAVEL: 0.92
-- Politics to Festival #vote_for Project: 0.58
+- Bio Rice Field Project: 7.16
+- Chiba Youth Center PRISM - Support for Teens and 20s: 2.63
+- Awaji Island Quest College: 2.47
+- Para Travel Support Team: 2.16
+- Politics to Festival #vote_for Project: 1.47
+- JINEN TRAVEL: 1.42
+- Inatori Art Center Plan: 1.26
 
 #### Small Vote Usage Pattern
 
-- JINEN TRAVEL: 33.3%
-- Politics to Festival #vote_for Project: 25.0%
-- Inatori Art Center Plan: 25.0%
-- Para Travel Support Team: 25.0%
-- Awaji Island Quest College: 16.7%
-- Chiba Youth Center PRISM - Support for Teens and 20s: 16.7%
+- JINEN TRAVEL: 47.4%
+- Inatori Art Center Plan: 36.8%
+- Chiba Youth Center PRISM - Support for Teens and 20s: 36.8%
+- Politics to Festival #vote_for Project: 26.3%
+- Para Travel Support Team: 26.3%
+- Awaji Island Quest College: 15.8%
 - Bio Rice Field Project: 0.0%
-
-### Cluster 6
-
-- Size: 14voters (11.3%)
-- Main Project: Awaji Island Quest College (average 7.07votes)
-- Secondary Project: JINEN TRAVEL (average 2.71votes)
-- Voting Ratio (Main/Secondary): 2.61
-
-#### Average Vote Value by Project
-
-- Awaji Island Quest College: 7.07
-- JINEN TRAVEL: 2.71
-- Chiba Youth Center PRISM - Support for Teens and 20s: 2.64
-- Politics to Festival #vote_for Project: 1.71
-- Inatori Art Center Plan: 1.64
-- Para Travel Support Team: 1.29
-- Bio Rice Field Project: 1.07
-
-#### Small Vote Usage Pattern
-
-- Inatori Art Center Plan: 50.0%
-- Para Travel Support Team: 50.0%
-- JINEN TRAVEL: 42.9%
-- Politics to Festival #vote_for Project: 35.7%
-- Bio Rice Field Project: 28.6%
-- Chiba Youth Center PRISM - Support for Teens and 20s: 14.3%
-- Awaji Island Quest College: 0.0%
-
-### Cluster 0
-
-- Size: 11voters (8.9%)
-- Main Project: Para Travel Support Team (average 6.91votes)
-- Secondary Project: Chiba Youth Center PRISM - Support for Teens and 20s (average 2.64votes)
-- Voting Ratio (Main/Secondary): 2.62
-
-#### Average Vote Value by Project
-
-- Para Travel Support Team: 6.91
-- Chiba Youth Center PRISM - Support for Teens and 20s: 2.64
-- Politics to Festival #vote_for Project: 2.18
-- Awaji Island Quest College: 1.64
-- Bio Rice Field Project: 1.45
-- JINEN TRAVEL: 1.27
-- Inatori Art Center Plan: 0.91
-
-#### Small Vote Usage Pattern
-
-- Politics to Festival #vote_for Project: 54.5%
-- Awaji Island Quest College: 54.5%
-- Inatori Art Center Plan: 54.5%
-- JINEN TRAVEL: 54.5%
-- Bio Rice Field Project: 54.5%
-- Chiba Youth Center PRISM - Support for Teens and 20s: 45.5%
-- Para Travel Support Team: 9.1%
-
-### Cluster 5
-
-- Size: 24voters (19.4%)
-- Main Project: Chiba Youth Center PRISM - Support for Teens and 20s (average 6.46votes)
-- Secondary Project: Politics to Festival #vote_for Project (average 3.88votes)
-- Voting Ratio (Main/Secondary): 1.67
-
-#### Average Vote Value by Project
-
-- Chiba Youth Center PRISM - Support for Teens and 20s: 6.46
-- Politics to Festival #vote_for Project: 3.88
-- Bio Rice Field Project: 2.17
-- Para Travel Support Team: 2.04
-- Awaji Island Quest College: 1.67
-- Inatori Art Center Plan: 1.42
-- JINEN TRAVEL: 1.04
-
-#### Small Vote Usage Pattern
-
-- Inatori Art Center Plan: 54.2%
-- JINEN TRAVEL: 54.2%
-- Awaji Island Quest College: 50.0%
-- Bio Rice Field Project: 41.7%
-- Para Travel Support Team: 41.7%
-- Politics to Festival #vote_for Project: 25.0%
-- Chiba Youth Center PRISM - Support for Teens and 20s: 4.2%
 
 ### Cluster 3
 
-- Size: 15voters (12.1%)
-- Main Project: JINEN TRAVEL (average 7.00votes)
-- Secondary Project: Bio Rice Field Project (average 3.40votes)
-- Voting Ratio (Main/Secondary): 2.06
+- Size: 15voters (8.4%)
+- Main Project: Para Travel Support Team (average 7.40votes)
+- Secondary Project: Chiba Youth Center PRISM - Support for Teens and 20s (average 2.60votes)
+- Voting Ratio (Main/Secondary): 2.85
 
 #### Average Vote Value by Project
 
-- JINEN TRAVEL: 7.00
-- Bio Rice Field Project: 3.40
-- Politics to Festival #vote_for Project: 2.73
-- Awaji Island Quest College: 2.60
-- Inatori Art Center Plan: 2.00
-- Chiba Youth Center PRISM - Support for Teens and 20s: 1.67
-- Para Travel Support Team: 1.40
+- Para Travel Support Team: 7.40
+- Chiba Youth Center PRISM - Support for Teens and 20s: 2.60
+- Awaji Island Quest College: 2.07
+- Inatori Art Center Plan: 1.60
+- Politics to Festival #vote_for Project: 1.33
+- JINEN TRAVEL: 1.33
+- Bio Rice Field Project: 1.27
 
 #### Small Vote Usage Pattern
 
-- Inatori Art Center Plan: 73.3%
 - Politics to Festival #vote_for Project: 53.3%
-- Para Travel Support Team: 53.3%
-- Awaji Island Quest College: 46.7%
-- Bio Rice Field Project: 40.0%
+- JINEN TRAVEL: 46.7%
+- Bio Rice Field Project: 46.7%
+- Awaji Island Quest College: 40.0%
 - Chiba Youth Center PRISM - Support for Teens and 20s: 40.0%
+- Inatori Art Center Plan: 26.7%
+- Para Travel Support Team: 0.0%
+
+### Cluster 2
+
+- Size: 29voters (16.2%)
+- Main Project: Chiba Youth Center PRISM - Support for Teens and 20s (average 6.59votes)
+- Secondary Project: Politics to Festival #vote_for Project (average 2.07votes)
+- Voting Ratio (Main/Secondary): 3.18
+
+#### Average Vote Value by Project
+
+- Chiba Youth Center PRISM - Support for Teens and 20s: 6.59
+- Politics to Festival #vote_for Project: 2.07
+- Para Travel Support Team: 1.93
+- Bio Rice Field Project: 1.41
+- Awaji Island Quest College: 1.34
+- JINEN TRAVEL: 0.52
+- Inatori Art Center Plan: 0.48
+
+#### Small Vote Usage Pattern
+
+- Inatori Art Center Plan: 34.5%
+- Bio Rice Field Project: 34.5%
+- Politics to Festival #vote_for Project: 31.0%
+- Para Travel Support Team: 27.6%
+- Awaji Island Quest College: 24.1%
+- JINEN TRAVEL: 24.1%
+- Chiba Youth Center PRISM - Support for Teens and 20s: 3.4%
+
+### Cluster 5
+
+- Size: 21voters (11.7%)
+- Main Project: JINEN TRAVEL (average 6.76votes)
+- Secondary Project: Awaji Island Quest College (average 3.38votes)
+- Voting Ratio (Main/Secondary): 2.00
+
+#### Average Vote Value by Project
+
+- JINEN TRAVEL: 6.76
+- Awaji Island Quest College: 3.38
+- Bio Rice Field Project: 3.29
+- Politics to Festival #vote_for Project: 2.43
+- Inatori Art Center Plan: 1.81
+- Chiba Youth Center PRISM - Support for Teens and 20s: 1.43
+- Para Travel Support Team: 1.24
+
+#### Small Vote Usage Pattern
+
+- Inatori Art Center Plan: 71.4%
+- Para Travel Support Team: 52.4%
+- Politics to Festival #vote_for Project: 42.9%
+- Awaji Island Quest College: 38.1%
+- Bio Rice Field Project: 38.1%
+- Chiba Youth Center PRISM - Support for Teens and 20s: 38.1%
 - JINEN TRAVEL: 0.0%
+
+### Cluster 6
+
+- Size: 10voters (5.6%)
+- Main Project: Politics to Festival #vote_for Project (average 8.00votes)
+- Secondary Project: Chiba Youth Center PRISM - Support for Teens and 20s (average 2.30votes)
+- Voting Ratio (Main/Secondary): 3.48
+
+#### Average Vote Value by Project
+
+- Politics to Festival #vote_for Project: 8.00
+- Chiba Youth Center PRISM - Support for Teens and 20s: 2.30
+- Inatori Art Center Plan: 1.90
+- Bio Rice Field Project: 1.90
+- Para Travel Support Team: 1.80
+- Awaji Island Quest College: 1.60
+- JINEN TRAVEL: 1.30
+
+#### Small Vote Usage Pattern
+
+- Inatori Art Center Plan: 90.0%
+- JINEN TRAVEL: 80.0%
+- Bio Rice Field Project: 70.0%
+- Awaji Island Quest College: 60.0%
+- Para Travel Support Team: 60.0%
+- Chiba Youth Center PRISM - Support for Teens and 20s: 40.0%
+- Politics to Festival #vote_for Project: 0.0%
 
 ### Cluster 4
 
-- Size: 8voters (6.5%)
-- Main Project: Inatori Art Center Plan (average 7.12votes)
-- Secondary Project: Bio Rice Field Project (average 3.25votes)
-- Voting Ratio (Main/Secondary): 2.19
+- Size: 21voters (11.7%)
+- Main Project: Awaji Island Quest College (average 8.19votes)
+- Secondary Project: Chiba Youth Center PRISM - Support for Teens and 20s (average 1.00votes)
+- Voting Ratio (Main/Secondary): 8.19
 
 #### Average Vote Value by Project
 
-- Inatori Art Center Plan: 7.12
-- Bio Rice Field Project: 3.25
-- Para Travel Support Team: 1.88
-- Politics to Festival #vote_for Project: 1.38
-- Awaji Island Quest College: 1.12
-- Chiba Youth Center PRISM - Support for Teens and 20s: 1.12
-- JINEN TRAVEL: 1.00
+- Awaji Island Quest College: 8.19
+- Chiba Youth Center PRISM - Support for Teens and 20s: 1.00
+- Inatori Art Center Plan: 0.95
+- Politics to Festival #vote_for Project: 0.90
+- JINEN TRAVEL: 0.90
+- Para Travel Support Team: 0.48
+- Bio Rice Field Project: 0.24
 
 #### Small Vote Usage Pattern
 
-- Politics to Festival #vote_for Project: 50.0%
-- Awaji Island Quest College: 50.0%
-- JINEN TRAVEL: 37.5%
-- Chiba Youth Center PRISM - Support for Teens and 20s: 37.5%
-- Bio Rice Field Project: 25.0%
-- Para Travel Support Team: 12.5%
-- Inatori Art Center Plan: 0.0%
+- JINEN TRAVEL: 28.6%
+- Inatori Art Center Plan: 19.0%
+- Bio Rice Field Project: 19.0%
+- Para Travel Support Team: 19.0%
+- Politics to Festival #vote_for Project: 14.3%
+- Chiba Youth Center PRISM - Support for Teens and 20s: 14.3%
+- Awaji Island Quest College: 0.0%
 
 ## Implications for Hypotheses
 
